@@ -1,0 +1,111 @@
+#	Name:			1PFK_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Sat Nov 08 17:07:23 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sat Nov 08 17:07:23 2014
+
+@<TRIPOS>MOLECULE
+1PFK_ligand
+   39    41     1     1     3
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 PB          3.2690   10.7750  -21.2240 P.3       1 ADP326      1.3672 DICT
+      2 O1B         3.0060    9.3970  -20.7380 O.co2     1 ADP326     -0.9552 DICT
+      3 O2B         2.9100   11.7660  -20.1760 O.co2     1 ADP326     -0.9552 DICT
+      4 O3B         4.6500   10.9790  -21.7150 O.3       1 ADP326     -0.9552 DICT
+      5 PA          2.0330   12.2500  -23.4210 P.3       1 ADP326      1.4929 DICT
+      6 O1A         2.1950   13.5200  -22.6930 O.co2     1 ADP326     -0.9474 DICT
+      7 O2A         2.8850   12.2230  -24.6200 O.co2     1 ADP326     -0.9474 DICT
+      8 O3A         2.3320   10.9780  -22.4910 O.3       1 ADP326     -0.6346 DICT
+      9 O5'         0.4920   12.0400  -23.7650 O.3       1 ADP326     -0.6579 DICT|DIRECT
+     10 C5'        -0.5440   12.1020  -22.7460 C.3       1 ADP326      0.0558 DICT|DIRECT
+     11 C4'        -1.6480   11.1040  -23.0380 C.3       1 ADP326      0.1065 DICT|DIRECT
+     12 O4'        -2.1540   11.2950  -24.3960 O.3       1 ADP326     -0.3548 DICT
+     13 C3'        -1.2700    9.6230  -22.9440 C.3       1 ADP326      0.2022 DICT|DIRECT
+     14 O3'        -2.3610    8.8040  -22.5360 O.3       1 ADP326     -0.6541 DICT|DIRECT
+     15 C2'        -0.9260    9.2840  -24.3970 C.3       1 ADP326      0.0670 DICT
+     16 O2'        -1.0770    7.9000  -24.6550 O.3       1 ADP326     -0.6139 DICT
+     17 C1'        -1.9640   10.1260  -25.1590 C.3       1 ADP326      0.0394 BACKBONE|DICT
+     18 N9         -1.5030   10.5000  -26.5010 N.pl3     1 ADP326     -0.0251 DICT
+     19 C8         -0.4280   11.2610  -26.8520 C.2       1 ADP326      0.2006 DICT
+     20 N7         -0.2820   11.4060  -28.1660 N.2       1 ADP326     -0.6073 DICT
+     21 C5         -1.3230   10.6750  -28.6820 C.ar      1 ADP326      0.0515 DICT
+     22 C6         -1.7180   10.4310  -30.0170 C.ar      1 ADP326      0.7009 DICT
+     23 N6         -1.0610   10.9260  -31.0650 N.pl3     1 ADP326     -0.9019 DICT
+     24 N1         -2.8190    9.6560  -30.1950 N.ar      1 ADP326     -0.7615 DICT
+     25 C2         -3.4640    9.1690  -29.0940 C.ar      1 ADP326      0.5875 DICT
+     26 N3         -3.1900    9.3340  -27.8330 N.ar      1 ADP326     -0.6997 DICT
+     27 C4         -2.0920   10.1070  -27.6850 C.ar      1 ADP326      0.3053 DICT
+     28 H5'1       -0.1001   11.8721  -21.7662 H         1 ADP326      0.0679 DICT
+     29 H5'2       -0.9703   13.1158  -22.7265 H         1 ADP326      0.0679 DICT
+     30 H4'        -2.4573   11.2953  -22.3180 H         1 ADP326      0.1174 DICT
+     31 H3'        -0.4139    9.4725  -22.2699 H         1 ADP326      0.0615 DICT
+     32 HO3'       -2.9839    8.7280  -23.2492 H         1 ADP326      0.4376 DICT|ESSENTIAL
+     33 H2'         0.0998    9.5912  -24.6485 H         1 ADP326      0.0972 DICT
+     34 HO2'       -0.8155    7.7142  -25.5492 H         1 ADP326      0.4186 DICT|ESSENTIAL
+     35 H1'        -2.9068    9.5657  -25.2442 H         1 ADP326      0.2007 DICT
+     36 H8          0.2479   11.7083  -26.1247 H         1 ADP326      0.1553 DICT
+     37 HN61       -0.2015   11.4751  -30.9215 H         1 ADP326      0.4115 DICT|ESSENTIAL
+     38 HN62       -1.4126   10.7595  -32.0187 H         1 ADP326      0.4115 DICT|ESSENTIAL
+     39 H2         -4.3324    8.5543  -29.3015 H         1 ADP326      0.0473 DICT
+@<TRIPOS>BOND
+     1   17   35 1    DICT
+     2   17   18 1    DICT
+     3   17   12 1    DICT
+     4   17   15 1    DICT
+     5   15   33 1    DICT
+     6   15   16 1    DICT
+     7   15   13 1    DICT
+     8   13   31 1    DICT
+     9   13   14 1    DICT
+    10   13   11 1    DICT
+    11   11   30 1    DICT
+    12   11   12 1    DICT
+    13   11   10 1    DICT
+    14   10   29 1    DICT
+    15   10   28 1    DICT
+    16   10    9 1    DICT
+    17    9    5 1    DICT
+    18    5    8 1    DICT
+    19    5    7 ar   DICT
+    20    5    6 ar   DICT
+    21    8    1 1    DICT
+    22    1    3 ar   DICT
+    23    1    2 ar   DICT
+    24    1    4 1    DICT
+    25   14   32 1    DICT
+    26   16   34 1    DICT
+    27   18   19 1    DICT
+    28   18   27 1    DICT
+    29   27   21 ar   DICT
+    30   27   26 ar   DICT
+    31   26   25 ar   DICT
+    32   25   39 1    DICT
+    33   25   24 ar   DICT
+    34   24   22 ar   DICT
+    35   22   23 1    DICT
+    36   22   21 ar   DICT
+    37   21   20 1    DICT
+    38   20   19 2    DICT
+    39   19   36 1    DICT
+    40   23   38 1    DICT
+    41   23   37 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 ADP326     17 RESIDUE           4 A     ADP     0 ROOT ADP A 326
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 17
+SITE_AC4        STATIC     SUBSTS   AMSOM    **** 
+1 17
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 17
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

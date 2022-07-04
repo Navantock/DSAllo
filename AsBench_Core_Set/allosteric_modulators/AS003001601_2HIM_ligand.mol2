@@ -1,0 +1,60 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 02:04:49 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 02:04:49 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   17    16     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N         -19.9150   -3.6860   16.8420 N.am      1 ASN8001    -0.4200 BACKBONE|DICT|DIRECT
+      2 CA        -20.2880   -2.3500   16.4930 C.3       1 ASN8001     0.0100 BACKBONE|DICT|DIRECT
+      3 C         -19.1480   -1.8380   15.5700 C.2       1 ASN8001     0.6000 BACKBONE|DICT|DIRECT
+      4 O         -19.0820   -0.5960   15.4380 O.2       1 ASN8001    -0.5700 BACKBONE|DICT|DIRECT
+      5 CB        -20.4790   -1.4940   17.7730 C.3       1 ASN8001    -0.2000 DICT
+      6 CG        -19.2060   -1.2250   18.6610 C.2       1 ASN8001     0.7100 DICT
+      7 ND2       -19.2350   -0.1200   19.3960 N.am      1 ASN8001    -0.9200 DICT
+      8 OD1       -18.2220   -1.9970   18.6640 O.2       1 ASN8001    -0.5900 DICT
+      9 OXT       -18.3680   -2.6800   15.0330 O.3       1 ASN8001     0.0000 CAP|DICT
+     10 H         -19.0400   -4.0580   16.5330 H         1 ASN8001     0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     11 HNCA      -20.5420   -4.2600   17.4060 H         1 ASN8001     0.0000 
+     12 HA        -21.2360   -2.3560   15.9340 H         1 ASN8001     0.1000 BACKBONE|DICT|DIRECT
+     13 HB2       -20.8760   -0.5170   17.4600 H         1 ASN8001     0.0800 DICT
+     14 HB3       -21.2200   -2.0060   18.4050 H         1 ASN8001     0.0800 DICT
+     15 HD21      -20.0330    0.4820   19.3630 H         1 ASN8001     0.4200 DICT|ESSENTIAL
+     16 HD22      -18.4590    0.1110   19.9830 H         1 ASN8001     0.4200 DICT|ESSENTIAL
+     17 HOCA      -17.5420   -2.2590   14.8240 H         1 ASN8001     0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3    9 1    CAP|DICT
+     6    5    6 1    DICT
+     7    6    7 am   DICT
+     8    6    8 2    DICT
+     9    1   10 1    BACKBONE|DICT
+    10    2   12 1    BACKBONE|DICT
+    11    5   14 1    DICT
+    12    5   13 1    DICT
+    13    7   15 1    DICT
+    14    7   16 1    DICT
+    15    1   11 1    
+    16    9   17 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 ASN8001     2 RESIDUE           4 A     ASN     0 ROOT ASN A8001
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

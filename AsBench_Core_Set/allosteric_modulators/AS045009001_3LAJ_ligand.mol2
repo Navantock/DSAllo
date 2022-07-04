@@ -1,0 +1,80 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 12:08:11 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 12:08:11 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   27    26     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N         -25.2780  -18.8940  -51.4480 N.am      1 ARG200     -0.3500 BACKBONE|DICT|DIRECT
+      2 CA        -26.5030  -19.1280  -52.2180 C.3       1 ARG200     -0.2600 BACKBONE|DICT|DIRECT
+      3 C         -26.4950  -20.4850  -52.9160 C.2       1 ARG200      0.7300 BACKBONE|DICT|DIRECT
+      4 O         -27.5610  -21.0850  -53.2570 O.2       1 ARG200     -0.5900 BACKBONE|DICT|DIRECT
+      5 CB        -26.6760  -18.0250  -53.2540 C.3       1 ARG200     -0.0000 DICT
+      6 CG        -25.7020  -18.1030  -54.4140 C.3       1 ARG200      0.0400 DICT
+      7 CD        -26.1080  -17.0400  -55.4110 C.3       1 ARG200      0.0500 DICT
+      8 NE        -25.3850  -17.0710  -56.6770 N.pl3     1 ARG200     -0.5300 DICT
+      9 CZ        -25.8920  -17.5330  -57.8170 C.cat     1 ARG200      0.8100 DICT
+     10 NH1       -25.1580  -17.4990  -58.9330 N.pl3     1 ARG200     -0.8600 DICT
+     11 NH2       -27.1300  -18.0240  -57.8390 N.pl3     1 ARG200     -0.8600 DICT
+     12 OXT       -25.3760  -20.9770  -53.1520 O.3       1 ARG200      0.0000 CAP|DICT
+     13 H         -24.5530  -19.5830  -51.4400 H         1 ARG200      0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     14 HNCA      -25.1650  -18.0280  -50.9210 H         1 ARG200      0.0000 
+     15 HA        -27.3570  -19.1010  -51.5250 H         1 ARG200      0.1600 BACKBONE|DICT|DIRECT
+     16 HB2       -27.6980  -18.0870  -53.6570 H         1 ARG200      0.0300 DICT
+     17 HB3       -26.5380  -17.0560  -52.7520 H         1 ARG200      0.0300 DICT
+     18 HG2       -24.6780  -17.9160  -54.0590 H         1 ARG200      0.0300 DICT
+     19 HG3       -25.7520  -19.0970  -54.8820 H         1 ARG200      0.0300 DICT
+     20 HD2       -27.1790  -17.1670  -55.6270 H         1 ARG200      0.0700 DICT
+     21 HD3       -25.9410  -16.0560  -54.9470 H         1 ARG200      0.0700 DICT
+     22 HE        -24.4200  -16.7120  -56.6890 H         1 ARG200      0.3500 DICT|ESSENTIAL
+     23 HH11      -24.2020  -17.1160  -58.9090 H         1 ARG200      0.4500 DICT|ESSENTIAL
+     24 HH12      -25.5480  -17.8560  -59.8170 H         1 ARG200      0.4500 DICT|ESSENTIAL
+     25 HH21      -27.6910  -18.0450  -56.9760 H         1 ARG200      0.4500 DICT|ESSENTIAL
+     26 HH22      -27.5260  -18.3830  -58.7200 H         1 ARG200      0.4500 DICT|ESSENTIAL
+     27 HOCA      -25.4450  -21.5860  -53.8780 H         1 ARG200      0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3   12 1    CAP|DICT
+     6    5    6 1    DICT
+     7    6    7 1    DICT
+     8    7    8 1    DICT
+     9    8    9 ar   DICT
+    10    9   11 ar   DICT
+    11    9   10 ar   DICT
+    12    1   13 1    BACKBONE|DICT
+    13   10   23 1    DICT
+    14   10   24 1    DICT
+    15    2   15 1    BACKBONE|DICT
+    16    5   17 1    DICT
+    17    5   16 1    DICT
+    18    6   19 1    DICT
+    19    6   18 1    DICT
+    20    7   21 1    DICT
+    21    7   20 1    DICT
+    22    8   22 1    DICT
+    23   11   25 1    DICT
+    24   11   26 1    DICT
+    25    1   14 1    
+    26   12   27 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 ARG200      2 RESIDUE           4 A     ARG     0 ROOT ARG A 200
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

@@ -1,0 +1,82 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 00:58:51 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 00:58:51 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   27    28     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          47.8060  101.9800    3.6340 N.am      1 TRP9004    -0.4200 BACKBONE|DICT|DIRECT
+      2 CA         49.0670  102.7080    4.0190 C.3       1 TRP9004    -0.0300 BACKBONE|DICT|DIRECT
+      3 C          48.7790  103.7450    5.0920 C.2       1 TRP9004     0.6000 BACKBONE|DICT|DIRECT
+      4 O          49.7020  104.3070    5.6950 O.2       1 TRP9004    -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         49.7190  103.4100    2.8250 C.3       1 TRP9004    -0.0100 DICT
+      6 CG         48.8180  104.4230    2.1640 C.2       1 TRP9004    -0.1400 DICT
+      7 CD1        47.8910  104.1770    1.2010 C.2       1 TRP9004    -0.1600 DICT
+      8 CD2        48.7250  105.8260    2.4570 C.ar      1 TRP9004     0.1200 DICT
+      9 CE2        47.7150  106.3610    1.6210 C.ar      1 TRP9004     0.1400 DICT
+     10 CE3        49.3900  106.6790    3.3440 C.ar      1 TRP9004    -0.2400 DICT
+     11 NE1        47.2260  105.3320    0.8670 N.pl3     1 TRP9004    -0.3400 DICT
+     12 CZ2        47.3640  107.7060    1.6320 C.ar      1 TRP9004    -0.2600 DICT
+     13 CZ3        49.0370  108.0140    3.3620 C.ar      1 TRP9004    -0.2000 DICT
+     14 CH2        48.0280  108.5160    2.5040 C.ar      1 TRP9004    -0.1100 DICT
+     15 OXT        47.6240  104.0620    5.3210 O.3       1 TRP9004     0.0000 CAP|DICT
+     16 H          46.9500  102.1770    4.1110 H         1 TRP9004     0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     17 HNCA       47.8260  101.2860    2.8860 H         1 TRP9004     0.0000 
+     18 HA         49.7780  101.9710    4.4200 H         1 TRP9004     0.1100 BACKBONE|DICT|DIRECT
+     19 HB2        50.6260  103.9250    3.1750 H         1 TRP9004     0.0300 DICT
+     20 HB3        49.9940  102.6490    2.0800 H         1 TRP9004     0.0300 DICT
+     21 HD1        47.7020  103.2010    0.7560 H         1 TRP9004     0.2100 DICT
+     22 HE1        46.4790  105.4100    0.1620 H         1 TRP9004     0.3400 DICT|ESSENTIAL
+     23 HE3        50.1640  106.3010    4.0020 H         1 TRP9004     0.1700 DICT
+     24 HZ2        46.5940  108.0940    0.9750 H         1 TRP9004     0.1600 DICT
+     25 HZ3        49.5410  108.6890    4.0440 H         1 TRP9004     0.1400 DICT
+     26 HH2        47.7780  109.5700    2.5420 H         1 TRP9004     0.1400 DICT
+     27 HOCA       47.6040  104.9300    5.7060 H         1 TRP9004     0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3   15 1    CAP|DICT
+     6    5    6 1    DICT
+     7    6    7 2    DICT
+     8    6    8 1    DICT
+     9    8   10 ar   DICT
+    10    8    9 ar   DICT
+    11    9   12 ar   DICT
+    12    9   11 1    DICT
+    13   11    7 1    DICT
+    14   12   14 ar   DICT
+    15   14   13 ar   DICT
+    16   13   10 ar   DICT
+    17    1   16 1    BACKBONE|DICT
+    18    2   18 1    BACKBONE|DICT
+    19    5   20 1    DICT
+    20    5   19 1    DICT
+    21    7   21 1    DICT
+    22   10   23 1    DICT
+    23   11   22 1    DICT
+    24   13   25 1    DICT
+    25   12   24 1    DICT
+    26   14   26 1    DICT
+    27    1   17 1    
+    28   15   27 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 TRP9004     2 RESIDUE           4 A     TRP     0 ROOT TRP A9004
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

@@ -1,0 +1,65 @@
+#	Name:			3E5U_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 10:48:54 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 10:48:54 2014
+
+@<TRIPOS>MOLECULE
+3E5U_ligand
+   18    18     1     1     2
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 C           6.5480  -10.4590  -16.8570 C.2       1 3C4501      0.0400 
+      2 CG          5.7320   -9.8980  -18.0060 C.3       1 3C4501      0.0300 
+      3 H11         6.2650  -10.1490  -18.9350 H         1 3C4501      0.0600 
+      4 H10         4.7580  -10.4100  -17.9920 H         1 3C4501      0.0600 
+      5 CA          5.4550   -8.4190  -18.0390 C.2       1 3C4501     -0.0400 
+      6 CD1         4.2480   -7.9640  -17.6970 C.2       1 3C4501     -0.0500 
+      7 H15         3.4870   -8.6470  -17.3370 H         1 3C4501      0.0500 
+      8 CE1         3.9820   -6.6290  -17.8050 C.2       1 3C4501      0.0600 
+      9 CL          2.4360   -5.9520  -17.3690 Cl        1 3C4501     -0.0800 
+     10 CZ          5.0130   -5.6920  -18.3300 C.3       1 3C4501      0.1000 
+     11 OH          4.7230   -4.3450  -18.4120 O.3       1 3C4501     -0.3400 
+     12 H14         5.4740   -3.8800  -18.7630 H         1 3C4501      0.2500 
+     13 CE2         6.2620   -6.3330  -18.7320 C.2       1 3C4501     -0.0400 
+     14 H13         7.0580   -5.7450  -19.1740 H         1 3C4501      0.0500 
+     15 CD2         6.4120   -7.5900  -18.5600 C.2       1 3C4501     -0.0700 
+     16 H12         7.3610   -8.0300  -18.8460 H         1 3C4501      0.0500 
+     17 O1          7.1750   -9.6050  -16.2030 O.co2     1 3C4501     -0.5700 
+     18 O2          6.5540  -11.7090  -16.6920 O.co2     1 3C4501     -0.5700 
+@<TRIPOS>BOND
+     1    1   18 ar   
+     2    1   17 ar   
+     3    1    2 1    
+     4    2    5 1    
+     5    2    4 1    
+     6    2    3 1    
+     7    5   15 1    
+     8    5    6 1    
+     9    6    8 2    
+    10    6    7 1    
+    11    8   10 1    
+    12    8    9 1    
+    13   10   13 1    
+    14   10   11 1    
+    15   11   12 1    
+    16   13   15 2    
+    17   13   14 1    
+    18   15   16 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 3C4501      1 GROUP             4 A     ****    0 ROOT 3C4 A 501
+@<TRIPOS>SET
+UNK_ATOMS       STATIC     ATOMS    AMSOM    **** Atom types guessed for these atoms
+11 1 2 5 6 8 10 11 13 15 17 18
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 1
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

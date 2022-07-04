@@ -1,0 +1,113 @@
+#	Name:			AS009022101_3NWY_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 14:48:43 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 14:48:43 2014
+
+@<TRIPOS>MOLECULE
+AS009022101_3NWY_ligand
+   44    46     1     0     1
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 C1'        80.1490   29.5560   19.8180 C.3       1 GTP262      0.0200 DICT
+      2 C2'        78.8920   29.1300   19.0660 C.3       1 GTP262      0.0700 DICT
+      3 C3'        79.4050   29.0570   17.6360 C.3       1 GTP262      0.2000 BACKBONE|DICT|DIRECT
+      4 C4'        80.4850   30.1280   17.5940 C.3       1 GTP262      0.1100 BACKBONE|DICT|DIRECT
+      5 C5'        80.0360   31.3630   16.8210 C.3       1 GTP262      0.0600 DICT|DIRECT
+      6 O5'        78.8690   31.9150   17.3860 O.3       1 GTP262     -0.6000 BACKBONE|DICT|DIRECT
+      7 PA         78.7990   33.4610   17.8520 P.3       1 GTP262      1.2500 DICT
+      8 O1A        78.2660   33.5260   19.2630 O.co2     1 GTP262     -0.8800 DICT
+      9 O2A        80.1060   34.2290   17.7310 O.co2     1 GTP262     -0.8800 DICT
+     10 O3A        77.7530   34.1980   16.8870 O.3       1 GTP262     -0.5700 DICT
+     11 PB         76.6170   33.3970   16.1030 P.3       1 GTP262      1.3900 DICT
+     12 O3B        75.8940   34.6220   15.3670 O.3       1 GTP262     -0.5300 DICT
+     13 PG         76.0890   34.7720   13.7880 P.3       1 GTP262      1.2600 DICT
+     14 O1G        77.3920   34.1160   13.3830 O.co2     1 GTP262     -0.9500 DICT
+     15 O2G        76.1170   36.2360   13.4090 O.co2     1 GTP262     -0.9500 DICT
+     16 O3G        74.9090   34.0690   13.1580 O.3       1 GTP262     -0.9500 DICT
+     17 O1B        75.6820   32.7450   17.0900 O.co2     1 GTP262     -0.8900 DICT
+     18 O2B        77.2130   32.3720   15.1470 O.co2     1 GTP262     -0.8900 DICT
+     19 H5'        79.8320   31.0800   15.7780 H         1 GTP262      0.0700 DICT
+     20 H5''       80.8380   32.1150   16.8460 H         1 GTP262      0.0700 DICT
+     21 O4'        80.7970   30.4540   18.9420 O.3       1 GTP262     -0.3500 DICT
+     22 H4'        81.3800   29.7190   17.1020 H         1 GTP262      0.1200 DICT
+     23 O3'        79.9580   27.8040   17.3240 O.3       1 GTP262     -0.6500 BACKBONE|DICT|DIRECT
+     24 HO3'       80.3190   27.8270   16.4460 H         1 GTP262      0.4400 DICT|ESSENTIAL
+     25 H3'        78.5970   29.2830   16.9250 H         1 GTP262      0.0600 DICT
+     26 O2'        78.3260   27.9250   19.5380 O.3       1 GTP262     -0.6100 DICT
+     27 HO2'       78.9630   27.2250   19.4620 H         1 GTP262      0.4200 DICT|ESSENTIAL
+     28 H2'        78.1220   29.9120   19.1480 H         1 GTP262      0.1000 DICT
+     29 N9         79.8320   30.1580   21.1160 N.pl3     1 GTP262      0.0500 DICT
+     30 C8         79.1630   31.3230   21.3700 C.2       1 GTP262      0.1400 DICT
+     31 N7         79.0760   31.4830   22.7190 N.2       1 GTP262     -0.5700 DICT
+     32 C5         79.6810   30.4360   23.3240 C.2       1 GTP262      0.1700 DICT
+     33 C4         80.1510   29.5980   22.3190 C.2       1 GTP262      0.1200 DICT
+     34 N3         80.8060   28.4560   22.6200 N.2       1 GTP262     -0.6300 DICT
+     35 C2         81.0110   28.1040   23.9330 C.2       1 GTP262      0.7700 DICT
+     36 N1         80.5500   28.9120   24.9560 N.am      1 GTP262     -0.4800 DICT
+     37 C6         79.8870   30.0900   24.6620 C.2       1 GTP262      0.4800 DICT
+     38 O6         79.4910   30.8180   25.5790 O.2       1 GTP262     -0.5600 DICT
+     39 HN1        80.6960   28.6450   25.9090 H         1 GTP262      0.3400 DICT|ESSENTIAL
+     40 N2         81.6520   26.9740   24.1960 N.pl3     1 GTP262     -0.9700 DICT
+     41 HN22       81.8110   26.6870   25.1720 H         1 GTP262      0.4400 DICT|ESSENTIAL
+     42 HN21       81.9910   26.3830   23.4240 H         1 GTP262      0.4400 DICT|ESSENTIAL
+     43 H8         78.7670   32.0070   20.6210 H         1 GTP262      0.1600 DICT
+     44 H1'        80.7930   28.6820   19.9930 H         1 GTP262      0.2000 DICT
+@<TRIPOS>BOND
+     1    1    2 1    DICT
+     2    1   21 1    DICT
+     3    2    3 1    DICT
+     4    4    3 1    BACKBONE|DICT
+     5    3   23 1    BACKBONE|DICT
+     6    4    5 1    DICT
+     7   21    4 1    DICT
+     8    5    6 1    DICT
+     9    6    7 1    DICT
+    10   23   24 1    DICT
+    11    7    8 ar   DICT
+    12    7    9 ar   DICT
+    13   29   30 1    DICT
+    14    7   10 1    DICT
+    15   29   33 1    DICT
+    16   33   34 1    DICT
+    17   33   32 2    DICT
+    18   32   37 1    DICT
+    19   32   31 1    DICT
+    20   30   31 2    DICT
+    21   37   38 2    DICT
+    22   37   36 am   DICT
+    23   36   39 1    DICT
+    24   35   36 1    DICT
+    25   35   40 1    DICT
+    26    1   44 1    DICT
+    27    2   26 1    DICT
+    28    2   28 1    DICT
+    29    3   25 1    DICT
+    30    4   22 1    DICT
+    31    5   19 1    DICT
+    32    5   20 1    DICT
+    33   10   11 1    DICT
+    34   34   35 2    DICT
+    35   40   41 1    DICT
+    36   40   42 1    DICT
+    37    1   29 1    DICT
+    38   11   12 1    DICT
+    39   12   13 1    DICT
+    40   13   14 ar   DICT
+    41   13   15 ar   DICT
+    42   13   16 1    DICT
+    43   11   17 ar   DICT
+    44   11   18 ar   DICT
+    45   26   27 1    DICT
+    46   30   43 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 GTP262      1 RESIDUE           4 A     GTP     0 ROOT GTP A 262
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 1

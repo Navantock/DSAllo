@@ -1,0 +1,119 @@
+#	Name:			2V4Y_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Sat Nov 08 13:07:23 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sat Nov 08 13:07:23 2014
+
+@<TRIPOS>MOLECULE
+2V4Y_ligand
+   44    46     1     1     2
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 PG         -2.2830   -1.1190   37.2290 P.3       1 GTP1242     1.2650 DICT
+      2 O1G        -0.9220   -1.5730   36.7500 O.co2     1 GTP1242    -0.9526 DICT
+      3 O2G        -3.3310   -2.0640   36.6790 O.co2     1 GTP1242    -0.9526 DICT
+      4 O3G        -2.3240   -1.0900   38.7470 O.3       1 GTP1242    -0.9526 DICT
+      5 O3B        -2.5170    0.3630   36.6350 O.3       1 GTP1242    -0.5322 DICT
+      6 PB         -2.4310    0.6160   35.0410 P.3       1 GTP1242     1.3852 DICT
+      7 O1B        -1.2810    1.5560   34.7340 O.co2     1 GTP1242    -0.8894 DICT
+      8 O2B        -2.3070   -0.7090   34.3010 O.co2     1 GTP1242    -0.8894 DICT
+      9 O3A        -3.8260    1.3260   34.6490 O.3       1 GTP1242    -0.5689 DICT
+     10 PA         -5.2230    0.7770   35.2180 P.3       1 GTP1242     1.2532 DICT
+     11 O1A        -5.2310   -0.7300   35.1340 O.co2     1 GTP1242    -0.8799 DICT
+     12 O2A        -6.3720    1.3660   34.4290 O.co2     1 GTP1242    -0.8799 DICT
+     13 O5'        -5.2950    1.2750   36.7500 O.3       1 GTP1242    -0.5987 BACKBONE|DICT|DIRECT
+     14 C5'        -5.0180    2.6030   37.1240 C.3       1 GTP1242     0.0558 DICT|DIRECT
+     15 C4'        -5.4060    2.8530   38.5790 C.3       1 GTP1242     0.1065 BACKBONE|DICT|DIRECT
+     16 O4'        -6.8100    2.9480   38.6860 O.3       1 GTP1242    -0.3548 DICT
+     17 C3'        -5.0180    1.7390   39.5320 C.3       1 GTP1242     0.2022 BACKBONE|DICT|DIRECT
+     18 O3'        -3.7220    1.9120   40.0530 O.3       1 GTP1242    -0.6541 BACKBONE|DICT|DIRECT
+     19 C2'        -6.0760    1.8540   40.6100 C.3       1 GTP1242     0.0670 DICT
+     20 O2'        -5.7210    2.8400   41.5560 O.3       1 GTP1242    -0.6139 DICT
+     21 C1'        -7.3040    2.3160   39.8520 C.3       1 GTP1242     0.0191 DICT
+     22 N9         -8.1100    1.1310   39.4790 N.pl3     1 GTP1242     0.0492 DICT
+     23 C8         -8.2880    0.6450   38.2100 C.2       1 GTP1242     0.1374 DICT
+     24 N7         -9.0810   -0.4420   38.2650 N.2       1 GTP1242    -0.5709 DICT
+     25 C5         -9.4430   -0.6540   39.5490 C.2       1 GTP1242     0.1744 DICT
+     26 C6        -10.2540   -1.6190   40.1620 C.2       1 GTP1242     0.4770 DICT
+     27 O6        -10.8190   -2.4990   39.5160 O.2       1 GTP1242    -0.5597 DICT
+     28 N1        -10.4290   -1.5860   41.5300 N.am      1 GTP1242    -0.4787 DICT
+     29 C2         -9.8110   -0.5990   42.2780 C.2       1 GTP1242     0.7657 DICT
+     30 N2         -9.9870   -0.5660   43.5990 N.pl3     1 GTP1242    -0.9672 DICT
+     31 N3         -9.0260    0.3550   41.6570 N.2       1 GTP1242    -0.6323 DICT
+     32 C4         -8.8390    0.3330   40.3200 C.2       1 GTP1242     0.1222 DICT
+     33 H5'        -3.9419    2.7946   37.0005 H         1 GTP1242     0.0679 DICT
+     34 H5''       -5.5885    3.2856   36.4770 H         1 GTP1242     0.0679 DICT
+     35 H4'        -4.9348    3.7914   38.9066 H         1 GTP1242     0.1174 DICT
+     36 H3'        -5.0733    0.7610   39.0317 H         1 GTP1242     0.0615 DICT
+     37 HO3'       -3.0907    1.8965   39.3432 H         1 GTP1242     0.4376 DICT|ESSENTIAL
+     38 H2'        -6.2452    0.8891   41.1103 H         1 GTP1242     0.0972 DICT
+     39 HO2'       -5.5446    3.6592   41.1085 H         1 GTP1242     0.4186 DICT|ESSENTIAL
+     40 H1'        -7.9052    3.0131   40.4542 H         1 GTP1242     0.2006 DICT
+     41 H8         -7.8578    1.0692   37.3039 H         1 GTP1242     0.1640 DICT
+     42 HN1       -11.0003   -2.2727   41.9795 H         1 GTP1242     0.3424 DICT|ESSENTIAL
+     43 HN22      -10.5787   -1.2735   44.0576 H         1 GTP1242     0.4364 DICT|ESSENTIAL
+     44 HN21       -9.5313    0.1670   44.1611 H         1 GTP1242     0.4364 DICT|ESSENTIAL
+@<TRIPOS>BOND
+     1   21   40 1    DICT
+     2   21   22 1    DICT
+     3   21   16 1    DICT
+     4   21   19 1    DICT
+     5   19   38 1    DICT
+     6   19   20 1    DICT
+     7   19   17 1    DICT
+     8   17   36 1    DICT
+     9   17   18 1    BACKBONE|DICT
+    10   17   15 1    BACKBONE|DICT
+    11   15   35 1    DICT
+    12   15   16 1    DICT
+    13   15   14 1    DICT
+    14   14   34 1    DICT
+    15   14   33 1    DICT
+    16   14   13 1    DICT
+    17   13   10 1    DICT
+    18   10    9 1    DICT
+    19   10   12 ar   DICT
+    20   10   11 ar   DICT
+    21    9    6 1    DICT
+    22    6    8 ar   DICT
+    23    6    7 ar   DICT
+    24    6    5 1    DICT
+    25    5    1 1    DICT
+    26    1    4 1    DICT
+    27    1    3 ar   DICT
+    28    1    2 ar   DICT
+    29   18   37 1    DICT
+    30   20   39 1    DICT
+    31   22   32 1    DICT
+    32   22   23 1    DICT
+    33   23   41 1    DICT
+    34   23   24 2    DICT
+    35   24   25 1    DICT
+    36   25   26 1    DICT
+    37   25   32 2    DICT
+    38   32   31 1    DICT
+    39   31   29 2    DICT
+    40   29   30 1    DICT
+    41   29   28 1    DICT
+    42   28   42 1    DICT
+    43   28   26 am   DICT
+    44   26   27 2    DICT
+    45   30   44 1    DICT
+    46   30   43 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 GTP1242    21 RESIDUE           4 A     GTP     0 ROOT GTP A1242
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 21
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 21
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

@@ -1,0 +1,95 @@
+#	Name:			3N1V_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 01:38:51 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 01:38:51 2014
+
+@<TRIPOS>MOLECULE
+3N1V_ligand
+   23    24     1     1     9
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 CL1        -0.1650   77.9230   28.9120 Cl        1 Q3N1_1     -0.0787 
+      2 C2          1.5040   78.0890   28.5960 C.ar      1 Q3N1_1      0.0262 
+      3 C3          2.3460   76.9620   28.6930 C.ar      1 Q3N1_1     -0.0573 
+      4 C5          3.6950   77.1810   28.4450 C.ar      1 Q3N1_1     -0.0298 
+      5 C6          4.1810   78.4370   28.1120 C.ar      1 Q3N1_1      0.0311 
+      6 S7          5.9200   78.5420   27.8050 S.3       1 Q3N1_1     -0.0404 
+      7 C8          5.9750   76.7620   28.1520 C.2       1 Q3N1_1      0.0248 
+      8 C9          4.8010   76.1820   28.4740 C.2       1 Q3N1_1     -0.0483 
+      9 C10         4.5890   74.7150   28.8210 C.3       1 Q3N1_1     -0.0483 
+     10 C14         7.2460   75.9870   28.0770 C.3       1 Q3N1_1      0.0416 
+     11 C17         7.5280   75.6680   26.6240 C.2       1 Q3N1_1      0.0472 
+     12 O18         8.6580   75.7440   26.1730 O.co2     1 Q3N1_1     -0.5662 
+     13 O19         6.4840   75.3040   25.8640 O.co2     1 Q3N1_1     -0.5662 
+     14 C21         3.3370   79.5540   28.0130 C.ar      1 Q3N1_1     -0.0538 
+     15 C23         1.9810   79.3660   28.2630 C.ar      1 Q3N1_1     -0.0603 
+     16 H1          1.9622   75.9805   28.9467 H         1 Q3N1_1      0.0548 
+     17 H2          3.5251   74.5397   29.0385 H         1 Q3N1_1      0.0311 
+     18 H3          5.1913   74.4564   29.7044 H         1 Q3N1_1      0.0311 
+     19 H4          4.8974   74.0888   27.9708 H         1 Q3N1_1      0.0311 
+     20 H5          7.1456   75.0530   28.6494 H         1 Q3N1_1      0.0600 
+     21 H6          8.0705   76.5849   28.4925 H         1 Q3N1_1      0.0600 
+     22 H7          3.7282   80.5303   27.7506 H         1 Q3N1_1      0.0559 
+     23 H8          1.2954   80.2033   28.2007 H         1 Q3N1_1      0.0543 
+@<TRIPOS>BOND
+     1   15   23 1    
+     2   15   14 ar   
+     3   15    2 ar   
+     4    2    3 ar   
+     5    2    1 1    
+     6    3   16 1    
+     7    3    4 ar   
+     8    4    8 1    
+     9    4    5 ar   
+    10    5   14 ar   
+    11    5    6 1    
+    12    6    7 1    
+    13    7   10 1    
+    14    7    8 2    
+    15    8    9 1    
+    16    9   19 1    
+    17    9   18 1    
+    18    9   17 1    
+    19   10   21 1    
+    20   10   20 1    
+    21   10   11 1    
+    22   11   13 ar   
+    23   11   12 ar   
+    24   14   22 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 Q3N1_1     15 GROUP             4 F     ****    0 ROOT 3N1 F   1
+@<TRIPOS>SET
+UNK_ATOMS       STATIC     ATOMS    AMSOM    **** Atom types guessed for these atoms
+14 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 15
+SITE_AC3        STATIC     SUBSTS   AMSOM    **** 
+1 15
+UNK_AMBER7_FF99 STATIC     ATOMS    <user>   **** 
+23 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 \
+ 20 21 22 23
+UNK_AMBER7_FF02 STATIC     ATOMS    <user>   **** 
+23 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 \
+ 20 21 22 23
+UNK_AMBER95_ALL STATIC     ATOMS    <user>   **** 
+23 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 \
+ 20 21 22 23
+UNK_KOLL_ALL    STATIC     ATOMS    <user>   **** 
+23 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 \
+ 20 21 22 23
+X_ATOM_TYPES    STATIC     ATOMS    <user>   **** ""
+23 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 \
+ 20 21 22 23
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

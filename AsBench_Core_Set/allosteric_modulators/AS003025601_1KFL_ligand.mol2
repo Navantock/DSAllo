@@ -1,0 +1,73 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 08:46:54 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 08:46:54 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   23    23     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          11.8060   46.9540   69.2300 N.am      1 PHE1354    -0.4200 BACKBONE|DICT|DIRECT
+      2 CA         12.8840   47.3570   70.1120 C.3       1 PHE1354    -0.0000 BACKBONE|DICT|DIRECT
+      3 C          12.4390   48.4190   71.0990 C.2       1 PHE1354     0.6000 BACKBONE|DICT|DIRECT
+      4 O          13.2670   48.8060   71.9940 O.2       1 PHE1354    -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         14.0880   47.8360   69.3050 C.3       1 PHE1354    -0.0300 DICT
+      6 CG         14.7940   46.9250   68.3590 C.ar      1 PHE1354     0.0100 DICT
+      7 CD1        14.4610   46.7680   66.9930 C.ar      1 PHE1354    -0.1300 DICT
+      8 CD2        15.8760   46.1640   68.8710 C.ar      1 PHE1354    -0.1300 DICT
+      9 CE1        15.2110   45.8640   66.1810 C.ar      1 PHE1354    -0.1700 DICT
+     10 CE2        16.6360   45.2610   68.0920 C.ar      1 PHE1354    -0.1700 DICT
+     11 CZ         16.2990   45.1080   66.7250 C.ar      1 PHE1354    -0.1100 DICT
+     12 OXT        11.2780   48.9140   71.0260 O.3       1 PHE1354     0.0000 CAP|DICT
+     13 H          10.9140   47.4010   69.2950 H         1 PHE1354     0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     14 HNCA       11.9580   46.2150   68.5440 H         1 PHE1354     0.0000 
+     15 HA         13.1930   46.4730   70.6890 H         1 PHE1354     0.1000 BACKBONE|DICT|DIRECT
+     16 HB2        13.7440   48.6960   68.7120 H         1 PHE1354     0.0300 DICT
+     17 HB3        14.8400   48.1710   70.0350 H         1 PHE1354     0.0300 DICT
+     18 HD1        13.6400   47.3320   66.5650 H         1 PHE1354     0.1300 DICT
+     19 HD2        16.1350   46.2810   69.9170 H         1 PHE1354     0.1300 DICT
+     20 HE1        14.9520   45.7480   65.1350 H         1 PHE1354     0.1400 DICT
+     21 HE2        17.4550   44.7010   68.5290 H         1 PHE1354     0.1400 DICT
+     22 HZ         16.8590   44.4250   66.0960 H         1 PHE1354     0.1300 DICT
+     23 HOCA       11.2750   49.7750   71.4280 H         1 PHE1354     0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3   12 1    CAP|DICT
+     6    5    6 1    DICT
+     7    6    7 ar   DICT
+     8    6    8 ar   DICT
+     9    8   10 ar   DICT
+    10   10   11 ar   DICT
+    11   11    9 ar   DICT
+    12    9    7 ar   DICT
+    13    1   13 1    BACKBONE|DICT
+    14    2   15 1    BACKBONE|DICT
+    15    5   17 1    DICT
+    16    5   16 1    DICT
+    17    7   18 1    DICT
+    18    8   19 1    DICT
+    19    9   20 1    DICT
+    20   10   21 1    DICT
+    21   11   22 1    DICT
+    22    1   14 1    
+    23   12   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PHE1354     2 RESIDUE           4 A     PHE     0 ROOT PHE A1354
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

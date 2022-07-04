@@ -1,0 +1,60 @@
+#	Name:			1Z8D_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 01:25:56 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 01:25:56 2014
+
+@<TRIPOS>MOLECULE
+1Z8D_ligand
+   15    16     1     1     2
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 C4         32.5420   23.0200    3.5670 C.ar      1 ADE902      0.1600 
+      2 N3         31.7770   24.1430    3.4650 N.ar      1 ADE902     -0.2700 
+      3 C2         31.3770   24.5870    4.6850 C.ar      1 ADE902      0.0500 
+      4 H59        30.7580   25.4760    4.7170 H         1 ADE902      0.1000 
+      5 N1         31.6950   24.0000    5.8660 N.ar      1 ADE902     -0.2700 
+      6 C6         32.4890   22.8410    5.9550 C.ar      1 ADE902      0.1300 
+      7 N6         32.8490   22.1910    7.1260 N.pl3     1 ADE902     -0.3200 
+      8 H58        33.4340   21.3450    7.0860 H         1 ADE902      0.1800 
+      9 H57        32.5310   22.5550    8.0360 H         1 ADE902      0.1800 
+     10 C5         32.9400   22.3200    4.7140 C.ar      1 ADE902      0.1000 
+     11 N7         33.7260   21.2100    4.3830 N.2       1 ADE902     -0.3000 
+     12 C8         33.7290   21.3510    3.0030 C.2       1 ADE902      0.1100 
+     13 H56        34.2590   20.6460    2.3650 H         1 ADE902      0.1300 
+     14 N9         33.0140   22.4510    2.4520 N.pl3     1 ADE902     -0.2400 
+     15 H55        32.8930   22.7310    1.4680 H         1 ADE902      0.2400 
+@<TRIPOS>BOND
+     1   15   14 1    
+     2   14   12 1    
+     3   14    1 1    
+     4    1   10 ar   
+     5    1    2 ar   
+     6    2    3 ar   
+     7    3    5 ar   
+     8    3    4 1    
+     9    5    6 ar   
+    10    6   10 ar   
+    11    6    7 1    
+    12    7    9 1    
+    13    7    8 1    
+    14   10   11 1    
+    15   11   12 2    
+    16   12   13 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 ADE902     15 GROUP             4 A     ****    0 ROOT ADE A 902
+@<TRIPOS>SET
+LIGDB           STATIC     ATOMS    AMSOM    **** Atom types from ligand database
+10 1 2 3 5 6 7 10 11 12 14
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 15
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

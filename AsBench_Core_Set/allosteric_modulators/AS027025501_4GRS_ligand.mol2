@@ -1,0 +1,75 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 08:39:27 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 08:39:27 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   24    24     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          -8.0980    3.6450   48.8920 N.am      1 TYR401     -0.4200 BACKBONE|DICT|DIRECT
+      2 CA         -7.8000    3.4340   50.3350 C.3       1 TYR401     -0.0000 BACKBONE|DICT|DIRECT
+      3 C          -8.9460    2.7010   51.0490 C.2       1 TYR401      0.6000 BACKBONE|DICT|DIRECT
+      4 O         -10.1240    3.0810   50.9610 O.2       1 TYR401     -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         -7.4720    4.7710   51.0200 C.3       1 TYR401     -0.0200 DICT
+      6 CG         -8.4910    5.8800   50.8080 C.ar      1 TYR401     -0.0000 DICT
+      7 CD1        -8.6390    6.5020   49.5630 C.ar      1 TYR401     -0.1900 DICT
+      8 CD2        -9.2980    6.3220   51.8610 C.ar      1 TYR401     -0.1900 DICT
+      9 CE1        -9.5700    7.5220   49.3740 C.ar      1 TYR401     -0.2300 DICT
+     10 CE2       -10.2250    7.3430   51.6840 C.ar      1 TYR401     -0.2300 DICT
+     11 CZ        -10.3590    7.9400   50.4400 C.ar      1 TYR401      0.3200 DICT
+     12 OH        -11.2790    8.9530   50.2700 O.3       1 TYR401     -0.5600 DICT
+     13 OXT        -8.7140    1.6920   51.7280 O.3       1 TYR401      0.0000 CAP|DICT
+     14 H          -8.9900    3.3850   48.5220 H         1 TYR401      0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     15 HNCA       -7.3990    4.0510   48.2860 H         1 TYR401      0.0000 
+     16 HA         -6.9070    2.7960   50.4020 H         1 TYR401      0.0900 BACKBONE|DICT|DIRECT
+     17 HB2        -6.5040    5.1220   50.6340 H         1 TYR401      0.0300 DICT
+     18 HB3        -7.3900    4.5870   52.1010 H         1 TYR401      0.0300 DICT
+     19 HD1        -8.0190    6.1850   48.7320 H         1 TYR401      0.1700 DICT
+     20 HD2        -9.1990    5.8590   52.8360 H         1 TYR401      0.1700 DICT
+     21 HE1        -9.6780    7.9870   48.4010 H         1 TYR401      0.1700 DICT
+     22 HE2       -10.8400    7.6710   52.5150 H         1 TYR401      0.1700 DICT
+     23 HH        -11.2530    9.2570   49.3700 H         1 TYR401      0.4000 DICT|ESSENTIAL
+     24 HOCA       -9.5260    1.3630   52.0950 H         1 TYR401      0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3   13 1    CAP|DICT
+     6    5    6 1    DICT
+     7    6    7 ar   DICT
+     8    6    8 ar   DICT
+     9    8   10 ar   DICT
+    10   10   11 ar   DICT
+    11   11   12 1    DICT
+    12   11    9 ar   DICT
+    13    9    7 ar   DICT
+    14    2   16 1    BACKBONE|DICT
+    15    1   14 1    BACKBONE|DICT
+    16    5   17 1    DICT
+    17    5   18 1    DICT
+    18    7   19 1    DICT
+    19    8   20 1    DICT
+    20    9   21 1    DICT
+    21   10   22 1    DICT
+    22   12   23 1    DICT
+    23    1   15 1    
+    24   13   24 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 TYR401      2 RESIDUE           4 A     TYR     0 ROOT TYR A 401
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

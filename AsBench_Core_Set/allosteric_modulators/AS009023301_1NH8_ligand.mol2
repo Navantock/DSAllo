@@ -1,0 +1,63 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Sat Nov 08 12:33:14 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sat Nov 08 12:33:14 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   18    18     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          63.6950   38.9500   88.2490 N.am      1 HIS289     -0.4200 BACKBONE|DICT|DIRECT
+      2 CA         64.4360   38.5470   87.0160 C.3       1 HIS289      0.0200 BACKBONE|DICT|DIRECT
+      3 C          65.3550   39.6590   86.5150 C.2       1 HIS289      0.6000 BACKBONE|DICT|DIRECT
+      4 O          65.9950   39.4500   85.4660 O.2       1 HIS289     -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         63.4530   38.1800   85.9070 C.3       1 HIS289     -0.0500 DICT
+      6 CG         62.4580   39.2590   85.6100 C.2       1 HIS289     -0.0300 DICT
+      7 CD2        62.5610   40.3830   84.8630 C.2       1 HIS289      0.1300 DICT
+      8 ND1        61.1970   39.2840   86.1670 N.pl3     1 HIS289     -0.3800 DICT
+      9 CE1        60.5670   40.3790   85.7770 C.2       1 HIS289      0.2100 DICT
+     10 NE2        61.3740   41.0640   84.9870 N.2       1 HIS289     -0.5700 DICT
+     11 H          63.8770   39.8370   88.6740 H         1 HIS289      0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     12 HNCA       63.0040   38.3210   88.6570 H         1 HIS289      0.0000 
+     13 HA         65.0500   37.6660   87.2540 H         1 HIS289      0.0900 BACKBONE|DICT|DIRECT
+     14 HB2        64.0240   37.9710   84.9900 H         1 HIS289      0.0400 DICT
+     15 HB3        62.9060   37.2760   86.2120 H         1 HIS289      0.0400 DICT
+     16 HD1        60.8070   38.5620   86.7900 H         1 HIS289      0.3600 DICT|ESSENTIAL
+     17 HD2        63.4240   40.6900   84.2740 H         1 HIS289      0.1100 DICT
+     18 HE1        59.5550   40.6670   86.0590 H         1 HIS289      0.1400 DICT
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    5    6 1    DICT
+     6    6    8 1    DICT
+     7    6    7 2    DICT
+     8    7   10 1    DICT
+     9   10    9 2    DICT
+    10    9    8 1    DICT
+    11    1   11 1    BACKBONE|DICT
+    12    2   13 1    BACKBONE|DICT
+    13    5   15 1    DICT
+    14    5   14 1    DICT
+    15    8   16 1    DICT
+    16    7   17 1    DICT
+    17    9   18 1    DICT
+    18    1   12 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 HIS289      2 RESIDUE           4 A     HIS     0 ROOT HIS A 289
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

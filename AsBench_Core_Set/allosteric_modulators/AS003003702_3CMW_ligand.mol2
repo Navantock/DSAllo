@@ -1,0 +1,111 @@
+#	Name:			3CMW_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Tue Nov 11 17:33:20 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Tue Nov 11 17:33:20 2014
+
+@<TRIPOS>MOLECULE
+3CMW_ligand
+   39    41     1     1     3
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 PB         86.6610   24.6090   37.0560 P.3       1 ADP502      1.3672 DICT
+      2 O1B        88.1750   24.5160   37.1580 O.co2     1 ADP502     -0.9552 DICT
+      3 O2B        85.8910   23.7610   38.0500 O.co2     1 ADP502     -0.9552 DICT
+      4 O3B        86.2030   24.4180   35.6090 O.3       1 ADP502     -0.9552 DICT
+      5 PA         87.2930   27.3030   37.7320 P.3       1 ADP502      1.4929 DICT
+      6 O1A        88.0000   27.1180   39.0470 O.co2     1 ADP502     -0.9474 DICT
+      7 O2A        88.1610   27.3730   36.4800 O.co2     1 ADP502     -0.9474 DICT
+      8 O3A        86.2100   26.1060   37.5360 O.3       1 ADP502     -0.6346 DICT
+      9 O5'        86.4230   28.6430   37.8500 O.3       1 ADP502     -0.6579 DICT|DIRECT
+     10 C5'        85.4390   28.7240   38.8630 C.3       1 ADP502      0.0558 DICT|DIRECT
+     11 C4'        84.8200   30.0940   38.8110 C.3       1 ADP502      0.1065 DICT|DIRECT
+     12 O4'        85.8670   31.0570   38.7090 O.3       1 ADP502     -0.3548 DICT
+     13 C3'        83.9640   30.2540   37.5770 C.3       1 ADP502      0.2022 DICT|DIRECT
+     14 O3'        82.8180   31.0220   37.9470 O.3       1 ADP502     -0.6541 DICT|DIRECT
+     15 C2'        84.8270   31.0760   36.6440 C.3       1 ADP502      0.0670 DICT
+     16 O2'        84.0750   31.8910   35.7400 O.3       1 ADP502     -0.6139 DICT
+     17 C1'        85.6760   31.9080   37.5820 C.3       1 ADP502      0.0394 BACKBONE|DICT
+     18 N9         86.9470   32.1840   36.8780 N.pl3     1 ADP502     -0.0251 DICT
+     19 C8         87.7980   31.2490   36.4160 C.2       1 ADP502      0.2006 DICT
+     20 N7         88.8730   31.8140   35.8050 N.2       1 ADP502     -0.6073 DICT
+     21 C5         88.6990   33.1380   35.8660 C.ar      1 ADP502      0.0515 DICT
+     22 C6         89.4590   34.3080   35.3920 C.ar      1 ADP502      0.7009 DICT
+     23 N6         90.6280   34.0880   34.7350 N.pl3     1 ADP502     -0.9019 DICT
+     24 N1         88.9530   35.5520   35.6460 N.ar      1 ADP502     -0.7615 DICT
+     25 C2         87.7790   35.7160   36.3070 C.ar      1 ADP502      0.5875 DICT
+     26 N3         87.0310   34.6830   36.7580 N.ar      1 ADP502     -0.6997 DICT
+     27 C4         87.4330   33.3910   36.5730 C.ar      1 ADP502      0.3053 DICT
+     28 H5'1       84.6662   27.9599   38.6929 H         1 ADP502      0.0679 DICT
+     29 H5'2       85.9037   28.5628   39.8469 H         1 ADP502      0.0679 DICT
+     30 H4'        84.2186   30.2669   39.7157 H         1 ADP502      0.1174 DICT
+     31 H3'        83.6764   29.2885   37.1353 H         1 ADP502      0.0615 DICT
+     32 HO3'       83.0749   31.9254   38.0898 H         1 ADP502      0.4376 DICT|ESSENTIAL
+     33 H2'        85.4678   30.4088   36.0488 H         1 ADP502      0.0972 DICT
+     34 HO2'       84.6638   32.2956   35.1139 H         1 ADP502      0.4186 DICT|ESSENTIAL
+     35 H1'        85.1812   32.8470   37.8709 H         1 ADP502      0.2007 DICT
+     36 H8         87.6447   30.1757   36.5187 H         1 ADP502      0.1553 DICT
+     37 HN61       90.9331   33.1247   34.5352 H         1 ADP502      0.4115 DICT|ESSENTIAL
+     38 HN62       91.2090   34.8845   34.4368 H         1 ADP502      0.4115 DICT|ESSENTIAL
+     39 H2         87.4231   36.7248   36.4822 H         1 ADP502      0.0473 DICT
+@<TRIPOS>BOND
+     1   17   35 1    DICT
+     2   17   18 1    DICT
+     3   17   12 1    DICT
+     4   17   15 1    DICT
+     5   15   33 1    DICT
+     6   15   16 1    DICT
+     7   15   13 1    DICT
+     8   13   31 1    DICT
+     9   13   14 1    DICT
+    10   13   11 1    DICT
+    11   11   30 1    DICT
+    12   11   12 1    DICT
+    13   11   10 1    DICT
+    14   10   29 1    DICT
+    15   10   28 1    DICT
+    16   10    9 1    DICT
+    17    9    5 1    DICT
+    18    5    8 1    DICT
+    19    5    7 ar   DICT
+    20    5    6 ar   DICT
+    21    8    1 1    DICT
+    22    1    3 ar   DICT
+    23    1    2 ar   DICT
+    24    1    4 1    DICT
+    25   14   32 1    DICT
+    26   16   34 1    DICT
+    27   18   19 1    DICT
+    28   18   27 1    DICT
+    29   27   21 ar   DICT
+    30   27   26 ar   DICT
+    31   26   25 ar   DICT
+    32   25   39 1    DICT
+    33   25   24 ar   DICT
+    34   24   22 ar   DICT
+    35   22   23 1    DICT
+    36   22   21 ar   DICT
+    37   21   20 1    DICT
+    38   20   19 2    DICT
+    39   19   36 1    DICT
+    40   23   38 1    DICT
+    41   23   37 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 ADP502     17 RESIDUE           4 A     ADP     0 ROOT ADP A 502
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 17
+X_SIDECHAIN_BUMPS STATIC     SUBSTS   <user>   **** ""
+1 17
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 17
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

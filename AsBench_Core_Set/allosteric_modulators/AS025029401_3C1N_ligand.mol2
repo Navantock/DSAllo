@@ -1,0 +1,60 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Sat Nov 08 14:11:01 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sat Nov 08 14:11:01 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   17    16     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          52.6870   40.5510   39.5800 N.am      1 THR473     -0.4200 BACKBONE|DICT|DIRECT
+      2 CA         51.8270   40.7350   38.3850 C.3       1 THR473     -0.0400 BACKBONE|DICT|DIRECT
+      3 C          50.4020   40.7510   38.8240 C.2       1 THR473      0.6000 BACKBONE|DICT|DIRECT
+      4 O          49.7230   41.7360   38.5950 O.2       1 THR473     -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         52.0270   39.6230   37.3150 C.3       1 THR473      0.3700 DICT
+      6 CG2        50.8740   39.6170   36.2960 C.3       1 THR473     -0.2400 DICT
+      7 OG1        53.2840   39.8050   36.6340 O.3       1 THR473     -0.6800 DICT
+      8 OXT        49.9190   39.7880   39.4060 O.3       1 THR473      0.0000 CAP|DICT
+      9 H          52.2750   40.5020   40.4900 H         1 THR473      0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     10 HNCA       53.6980   40.4750   39.4740 H         1 THR473      0.0000 
+     11 HA         52.0730   41.7030   37.9250 H         1 THR473      0.1000 BACKBONE|DICT|DIRECT
+     12 HB         52.0430   38.6490   37.8270 H         1 THR473      0.0000 DICT
+     13 HG1        53.3940   39.1210   35.9840 H         1 THR473      0.4100 DICT|ESSENTIAL
+     14 HG21       50.3770   40.5980   36.2990 H         1 THR473      0.0600 DICT
+     15 HG22       51.2730   39.4110   35.2920 H         1 THR473      0.0600 DICT
+     16 HG23       50.1480   38.8370   36.5690 H         1 THR473      0.0600 DICT
+     17 HOCA       48.9770   39.7850   39.2850 H         1 THR473      0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3    8 1    CAP|DICT
+     6    5    6 1    DICT
+     7    5    7 1    DICT
+     8    1    9 1    BACKBONE|DICT
+     9    2   11 1    BACKBONE|DICT
+    10    5   12 1    DICT
+    11    6   15 1    DICT
+    12    6   14 1    DICT
+    13    6   16 1    DICT
+    14    7   13 1    DICT
+    15    1   10 1    
+    16    8   17 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 THR473      2 RESIDUE           4 A     THR     0 ROOT THR A 473
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

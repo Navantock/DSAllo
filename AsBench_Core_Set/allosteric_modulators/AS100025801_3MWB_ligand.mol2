@@ -1,0 +1,73 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 08:51:44 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 08:51:44 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   23    23     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          23.0260   43.4240   61.1510 N.am      1 PHE311     -0.4200 BACKBONE|DICT|DIRECT
+      2 CA         23.7530   43.7300   62.4420 C.3       1 PHE311     -0.0000 BACKBONE|DICT|DIRECT
+      3 C          24.8920   44.7060   62.1970 C.2       1 PHE311      0.6000 BACKBONE|DICT|DIRECT
+      4 O          25.7110   44.9750   63.1170 O.2       1 PHE311     -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         24.2740   42.4430   63.1460 C.3       1 PHE311     -0.0300 DICT
+      6 CG         25.0700   41.5060   62.2470 C.ar      1 PHE311      0.0100 DICT
+      7 CD1        26.3960   41.8090   61.8760 C.ar      1 PHE311     -0.1300 DICT
+      8 CD2        24.4900   40.3060   61.7860 C.ar      1 PHE311     -0.1300 DICT
+      9 CE1        27.1270   40.9570   61.0480 C.ar      1 PHE311     -0.1700 DICT
+     10 CE2        25.2160   39.4290   60.9590 C.ar      1 PHE311     -0.1700 DICT
+     11 CZ         26.5490   39.7610   60.5900 C.ar      1 PHE311     -0.1100 DICT
+     12 OXT        25.0370   45.1950   61.0520 O.3       1 PHE311      0.0000 CAP|DICT
+     13 H          23.3490   43.8180   60.2900 H         1 PHE311      0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     14 HNCA       22.2070   42.8160   61.1590 H         1 PHE311      0.0000 
+     15 HA         23.0350   44.2120   63.1210 H         1 PHE311      0.1000 BACKBONE|DICT|DIRECT
+     16 HB2        24.9200   42.7470   63.9820 H         1 PHE311      0.0300 DICT
+     17 HB3        23.4070   41.8900   63.5350 H         1 PHE311      0.0300 DICT
+     18 HD1        26.8560   42.7200   62.2410 H         1 PHE311      0.1300 DICT
+     19 HD2        23.4740   40.0570   62.0720 H         1 PHE311      0.1300 DICT
+     20 HE1        28.1390   41.2170   60.7590 H         1 PHE311      0.1400 DICT
+     21 HE2        24.7640   38.5090   60.6060 H         1 PHE311      0.1400 DICT
+     22 HZ         27.1190   39.0920   59.9560 H         1 PHE311      0.1300 DICT
+     23 HOCA       25.9410   45.4630   60.9340 H         1 PHE311      0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3   12 1    CAP|DICT
+     6    5    6 1    DICT
+     7    6    7 ar   DICT
+     8    6    8 ar   DICT
+     9    8   10 ar   DICT
+    10   10   11 ar   DICT
+    11   11    9 ar   DICT
+    12    9    7 ar   DICT
+    13    1   13 1    BACKBONE|DICT
+    14    2   15 1    BACKBONE|DICT
+    15    5   17 1    DICT
+    16    5   16 1    DICT
+    17    7   18 1    DICT
+    18    8   19 1    DICT
+    19    9   20 1    DICT
+    20   10   21 1    DICT
+    21   11   22 1    DICT
+    22    1   14 1    
+    23   12   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PHE311      2 RESIDUE           4 B     PHE     0 ROOT PHE B 311
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

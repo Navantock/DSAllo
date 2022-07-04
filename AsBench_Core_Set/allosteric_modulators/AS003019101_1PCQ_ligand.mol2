@@ -1,0 +1,132 @@
+#	Name:			1PCQ_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Sun Nov 09 18:50:37 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sun Nov 09 18:50:37 2014
+
+@<TRIPOS>MOLECULE
+1PCQ_ligand
+   43    47     2     1     8
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 PA         31.7830  -41.6960  -17.0300 P.3       1 ADP600      1.4929 DICT
+      2 PB         32.2880  -44.1400  -18.3280 P.3       1 ADP600      1.3672 DICT
+      3 C5'        29.6400  -41.9900  -15.6870 C.3       1 ADP600      0.0558 DICT|DIRECT
+      4 O5'        30.2120  -41.9670  -16.9750 O.3       1 ADP600     -0.6579 DICT|DIRECT
+      5 C4'        28.1390  -42.3210  -15.6350 C.3       1 ADP600      0.1065 DICT|DIRECT
+      6 O4'        27.5340  -41.4970  -14.6570 O.3       1 ADP600     -0.3548 DICT
+      7 C3'        27.3610  -42.1110  -16.9430 C.3       1 ADP600      0.2022 DICT|DIRECT
+      8 O3'        27.1730  -43.4030  -17.4630 O.3       1 ADP600     -0.6541 DICT|DIRECT
+      9 C2'        26.0130  -41.5160  -16.5690 C.3       1 ADP600      0.0670 DICT
+     10 O2'        24.9570  -42.4530  -16.4940 O.3       1 ADP600     -0.6139 DICT
+     11 C1'        26.2460  -41.1040  -15.1320 C.3       1 ADP600      0.0394 BACKBONE|DICT
+     12 N1         23.5740  -37.7880  -12.3220 N.ar      1 ADP600     -0.7615 DICT
+     13 O1A        32.2290  -40.9760  -15.7940 O.co2     1 ADP600     -0.9474 DICT
+     14 O1B        31.5320  -43.4930  -19.4190 O.co2     1 ADP600     -0.9552 DICT
+     15 C2         23.7830  -39.1390  -12.1330 C.ar      1 ADP600      0.5875 DICT
+     16 O2A        32.0940  -41.0620  -18.3910 O.co2     1 ADP600     -0.9474 DICT
+     17 O2B        31.6980  -45.4260  -17.7000 O.co2     1 ADP600     -0.9552 DICT
+     18 N3         24.5460  -39.8530  -13.0310 N.ar      1 ADP600     -0.6997 DICT
+     19 O3A        32.4430  -43.1670  -17.0440 O.3       1 ADP600     -0.6346 DICT
+     20 O3B        33.6450  -44.5630  -18.9010 O.3       1 ADP600     -0.9552 DICT
+     21 C4         25.0970  -39.2230  -14.0870 C.ar      1 ADP600      0.3053 DICT
+     22 C5         24.9160  -37.8760  -14.3260 C.ar      1 ADP600      0.0515 DICT
+     23 C6         24.1340  -37.1580  -13.4090 C.ar      1 ADP600      0.7009 DICT
+     24 N6         23.7380  -35.9050  -13.6290 N.pl3     1 ADP600     -0.9019 DICT
+     25 N7         25.6170  -37.5610  -15.4580 N.2       1 ADP600     -0.6073 DICT
+     26 C8         26.2180  -38.6750  -15.9370 C.2       1 ADP600      0.2006 DICT
+     27 N9         25.9210  -39.6880  -15.0650 N.pl3     1 ADP600     -0.0251 DICT
+     28 AL         34.5660  -43.2370  -20.1230 Al        2 AF3_602     1.0480 
+     29 F1         33.0340  -42.2680  -19.9040 F         2 AF3_602    -0.3493 
+     30 F2         35.0970  -43.8630  -21.7760 F         2 AF3_602    -0.3493 
+     31 F3         35.5890  -43.5730  -18.6860 F         2 AF3_602    -0.3493 
+     32 H5'1       30.1745  -42.7454  -15.0923 H         1 ADP600      0.0679 DICT
+     33 H5'2       29.7842  -40.9979  -15.2344 H         1 ADP600      0.0679 DICT
+     34 H4'        28.0369  -43.3765  -15.3427 H         1 ADP600      0.1174 DICT
+     35 H3'        27.9015  -41.4631  -17.6487 H         1 ADP600      0.0615 DICT
+     36 HO3'       26.4993  -43.8501  -16.9643 H         1 ADP600      0.4376 DICT|ESSENTIAL
+     37 H2'        25.7476  -40.6776  -17.2298 H         1 ADP600      0.0972 DICT
+     38 HO2'       24.1519  -42.0049  -16.2626 H         1 ADP600      0.4186 DICT|ESSENTIAL
+     39 H1'        25.5169  -41.6343  -14.5017 H         1 ADP600      0.2007 DICT
+     40 H2         23.3460  -39.6394  -11.2764 H         1 ADP600      0.0473 DICT
+     41 HN61       24.0849  -35.3923  -14.4522 H         1 ADP600      0.4115 DICT|ESSENTIAL
+     42 HN62       23.0850  -35.4491  -12.9758 H         1 ADP600      0.4115 DICT|ESSENTIAL
+     43 H8         26.8209  -38.7510  -16.8407 H         1 ADP600      0.1553 DICT
+@<TRIPOS>BOND
+     1   11   39 1    DICT
+     2   11   27 1    DICT
+     3   11    6 1    DICT
+     4   11    9 1    DICT
+     5    9   37 1    DICT
+     6    9   10 1    DICT
+     7    9    7 1    DICT
+     8    7   35 1    DICT
+     9    7    8 1    DICT
+    10    7    5 1    DICT
+    11    5   34 1    DICT
+    12    5    6 1    DICT
+    13    5    3 1    DICT
+    14    3   33 1    DICT
+    15    3   32 1    DICT
+    16    3    4 1    DICT
+    17    4    1 1    DICT
+    18    1   19 1    DICT
+    19    1   16 ar   DICT
+    20    1   13 ar   DICT
+    21   19    2 1    DICT
+    22    2   17 ar   DICT
+    23    2   14 ar   DICT
+    24    2   20 1    DICT
+    25    8   36 1    DICT
+    26   10   38 1    DICT
+    27   27   26 1    DICT
+    28   27   21 1    DICT
+    29   21   22 ar   DICT
+    30   21   18 ar   DICT
+    31   18   15 ar   DICT
+    32   15   40 1    DICT
+    33   15   12 ar   DICT
+    34   12   23 ar   DICT
+    35   23   24 1    DICT
+    36   23   22 ar   DICT
+    37   22   25 1    DICT
+    38   25   26 2    DICT
+    39   26   43 1    DICT
+    40   24   42 1    DICT
+    41   24   41 1    DICT
+    42   31   28 1    
+    43   28   30 1    
+    44   28   29 1    
+    45   29   14 un   
+    46   28   20 1    
+    47   28   14 un   
+@<TRIPOS>SUBSTRUCTURE
+     1 ADP600     11 RESIDUE           4 A     ADP     3 **** ADP A 600
+     2 AF3_602    31 GROUP             4 A     ****    3 ROOT AF3 A 602
+@<TRIPOS>SET
+LIGDB           STATIC     ATOMS    AMSOM    **** Atom types from ligand database
+4 28 29 30 31
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+2 11 31
+UNK_AMBER7_FF99 STATIC     ATOMS    <user>   **** 
+4 28 29 30 31
+UNK_AMBER7_FF02 STATIC     ATOMS    <user>   **** 
+4 28 29 30 31
+UNK_AMBER95_ALL STATIC     ATOMS    <user>   **** 
+4 28 29 30 31
+UNK_KOLL_ALL    STATIC     ATOMS    <user>   **** 
+4 28 29 30 31
+X_ATOM_TYPES    STATIC     ATOMS    <user>   **** ""
+4 28 29 30 31
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+2 11 31
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

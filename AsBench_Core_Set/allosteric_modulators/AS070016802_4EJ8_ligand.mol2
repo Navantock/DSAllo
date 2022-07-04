@@ -1,0 +1,78 @@
+#	Name:			4EJ8_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Sun Nov 09 18:03:41 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sun Nov 09 18:03:41 2014
+
+@<TRIPOS>MOLECULE
+4EJ8_ligand
+   17    18     1     1     9
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 O1          9.0430   22.5950   24.5300 O.co2     1 1F1_106   -0.5580 
+      2 C2          9.5420   23.6900   24.3310 C.2       1 1F1_106    0.0731 
+      3 O3          8.8840   24.7720   24.7620 O.co2     1 1F1_106   -0.5580 
+      4 C4         10.8600   23.7930   23.6100 C.ar      1 1F1_106    0.0392 
+      5 C5         11.4600   25.0400   23.4130 C.ar      1 1F1_106   -0.0188 
+      6 C6         12.6780   25.1920   22.7460 C.ar      1 1F1_106   -0.0302 
+      7 C7         13.2840   24.0240   22.2810 C.ar      1 1F1_106    0.0020 
+      8 C8         14.4820   23.8190   21.5900 C.ar      1 1F1_106   -0.0423 
+      9 C9         14.5930   22.4480   21.3660 C.ar      1 1F1_106   -0.0092 
+     10 N10        13.5070   21.8430   21.9030 N.ar      1 1F1_106   -0.3212 
+     11 C11        12.6960   22.7730   22.4670 C.ar      1 1F1_106    0.0391 
+     12 C12        11.4710   22.6290   23.1300 C.ar      1 1F1_106   -0.0124 
+     13 H31        10.9605   25.9239   23.7928 H         1 1F1_106    0.0757 
+     14 H32        13.1290   26.1665   22.5973 H         1 1F1_106    0.0902 
+     15 H33        15.1900   24.5816   21.2862 H         1 1F1_106    0.0798 
+     16 H34        15.4076   21.9518   20.8510 H         1 1F1_106    0.0588 
+     17 H35        11.0144   21.6553   23.2659 H         1 1F1_106    0.0921 
+@<TRIPOS>BOND
+     1   12   17 1    
+     2   12   11 ar   
+     3   12    4 ar   
+     4    4    5 ar   
+     5    4    2 1    
+     6    2    3 ar   
+     7    2    1 ar   
+     8    5   13 1    
+     9    5    6 ar   
+    10    6   14 1    
+    11    6    7 ar   
+    12    7   11 ar   
+    13    7    8 ar   
+    14    8   15 1    
+    15    8    9 ar   
+    16    9   16 1    
+    17    9   10 ar   
+    18   10   11 ar   
+@<TRIPOS>SUBSTRUCTURE
+     1 1F1_106    12 GROUP             4 A     ****    0 ROOT 1F1 A 106
+@<TRIPOS>SET
+UNK_ATOMS       STATIC     ATOMS    AMSOM    **** Atom types guessed for these atoms
+12 1 2 3 4 5 6 7 8 9 10 11 12
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 12
+UNK_AMBER7_FF99 STATIC     ATOMS    <user>   **** 
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+UNK_AMBER7_FF02 STATIC     ATOMS    <user>   **** 
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+UNK_AMBER95_ALL STATIC     ATOMS    <user>   **** 
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+UNK_KOLL_ALL    STATIC     ATOMS    <user>   **** 
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+X_ATOM_TYPES    STATIC     ATOMS    <user>   **** ""
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 12
+ATOM$BY_TYPE    STATIC     ATOMS    COLORGROUP SYSTEM 
+12 1 2 3 4 5 6 7 8 9 10 11 12
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

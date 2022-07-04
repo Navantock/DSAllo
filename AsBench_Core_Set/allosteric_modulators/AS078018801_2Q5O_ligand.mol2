@@ -1,0 +1,67 @@
+#	Name:			2Q5O_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 00:33:50 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 00:33:50 2014
+
+@<TRIPOS>MOLECULE
+2Q5O_ligand
+   19    19     1     1     2
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 C6'       -25.9160  -21.5280   31.1700 C.ar      1 PPY5003    -0.0600 
+      2 H32       -25.2790  -22.3900   31.0080 H         1 PPY5003     0.0600 
+      3 C5'       -26.8620  -21.5380   32.2080 C.ar      1 PPY5003    -0.0700 
+      4 H31       -26.9550  -22.4100   32.8460 H         1 PPY5003     0.0600 
+      5 C4'       -27.6910  -20.4170   32.4230 C.ar      1 PPY5003    -0.0700 
+      6 H30       -28.4180  -20.4290   33.2270 H         1 PPY5003     0.0600 
+      7 C3'       -27.5770  -19.2800   31.5950 C.ar      1 PPY5003    -0.0700 
+      8 H29       -28.2170  -18.4210   31.7620 H         1 PPY5003     0.0600 
+      9 C2'       -26.6320  -19.2630   30.5530 C.ar      1 PPY5003    -0.0600 
+     10 H28       -26.5420  -18.3910   29.9160 H         1 PPY5003     0.0600 
+     11 C1'       -25.7950  -20.3920   30.3370 C.ar      1 PPY5003    -0.0200 
+     12 C3        -24.7740  -20.3890   29.2210 C.3       1 PPY5003     0.0600 
+     13 H27       -25.2710  -20.0340   28.3060 H         1 PPY5003     0.0700 
+     14 H26       -24.4290  -21.4230   29.0730 H         1 PPY5003     0.0700 
+     15 C2        -23.5560  -19.5180   29.4600 C.2       1 PPY5003     0.1800 
+     16 O3        -22.5710  -19.9880   30.0070 O.2       1 PPY5003    -0.3500 
+     17 C1        -23.5690  -18.0740   29.0330 C.2       1 PPY5003     0.1300 
+     18 O2        -24.3940  -17.6780   28.2330 O.co2     1 PPY5003    -0.5500 
+     19 O1        -22.6680  -17.2120   29.5440 O.co2     1 PPY5003    -0.5500 
+@<TRIPOS>BOND
+     1   19   17 ar   
+     2   17   18 ar   
+     3   17   15 1    
+     4   15   16 2    
+     5   15   12 1    
+     6   12   14 1    
+     7   12   13 1    
+     8   12   11 1    
+     9   11    9 ar   
+    10   11    1 ar   
+    11    1    3 ar   
+    12    1    2 1    
+    13    3    5 ar   
+    14    3    4 1    
+    15    5    7 ar   
+    16    5    6 1    
+    17    7    9 ar   
+    18    7    8 1    
+    19    9   10 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PPY5003    19 GROUP             4 A     ****    0 ROOT PPY A5003
+@<TRIPOS>SET
+LIGDB           STATIC     ATOMS    AMSOM    **** Atom types from ligand database
+12 1 3 5 7 9 11 12 15 16 17 18 19
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 19
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

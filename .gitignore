@@ -1,0 +1,6 @@
+# Pycharm file
+.idea
+# shell script
+run.sh
+# python cache
+__pycache__

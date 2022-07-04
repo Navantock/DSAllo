@@ -1,0 +1,123 @@
+#	Name:			3TW6_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 13:59:35 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 13:59:35 2014
+
+@<TRIPOS>MOLECULE
+3TW6_ligand
+   45    47     1     1     3
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 P1A        75.5140    3.0750  -64.5570 P.3       1 COA4011     1.1662 DICT
+      2 P2A        76.8540    0.9650  -63.1160 P.3       1 COA4011     0.0000 DICT
+      3 P3B        79.7030    5.4040  -61.5080 P.3       1 COA4011     0.0000 DICT
+      4 C1B        77.3960    8.5510  -64.0670 C.3       1 COA4011     0.0394 DICT
+      5 N1A        74.0590   11.7820  -61.4810 N.ar      1 COA4011    -0.7615 DICT
+      6 O1A        74.6160    2.5680  -65.6370 O.co2     1 COA4011    -0.7760 DICT
+      7 C2A        74.7750   11.9790  -62.6100 C.ar      1 COA4011     0.5875 DICT
+      8 C2B        78.7770    8.0940  -63.5780 C.3       1 COA4011     0.0670 DICT
+      9 O2A        74.9570    3.6210  -63.2430 O.co2     1 COA4011    -0.7760 DICT
+     10 O2B        79.8310    8.2500  -64.5310 O.3       1 COA4011    -0.6139 DICT
+     11 C3B        78.5000    6.6100  -63.4480 C.3       1 COA4011     0.2022 DICT
+     12 N3A        75.6060   11.0800  -63.1760 N.ar      1 COA4011    -0.6997 DICT
+     13 O3A        76.4810    1.8090  -64.4300 O.3       1 COA4011     0.0000 DICT
+     14 O3B        79.6320    5.8050  -63.0970 O.3       1 COA4011    -0.5246 DICT
+     15 C4A        75.7560    9.8530  -62.6170 C.ar      1 COA4011     0.3053 DICT
+     16 C4B        77.6320    6.2650  -64.6580 C.3       1 COA4011     0.1065 DICT
+     17 O4A        75.8600   -0.1590  -62.8430 O.co2     1 COA4011     0.0000 DICT
+     18 O4B        76.9050    7.4740  -64.8940 O.3       1 COA4011    -0.3548 DICT
+     19 C5A        75.0010    9.5560  -61.3770 C.ar      1 COA4011     0.0515 DICT
+     20 C5B        76.5860    5.2690  -64.2300 C.3       1 COA4011     0.0558 DICT
+     21 O5A        78.2140    0.6350  -63.6760 O.co2     1 COA4011     0.0000 DICT
+     22 O5B        76.4710    4.2140  -65.1520 O.3       1 COA4011    -0.4989 DICT
+     23 C6A        74.1240   10.6220  -60.8220 C.ar      1 COA4011     0.7009 DICT
+     24 N6A        73.4040   10.4440  -59.6970 N.pl3     1 COA4011    -0.9019 DICT
+     25 O6A        76.9120    2.0430  -61.8740 O.3       1 COA4011     0.0000 DICT
+     26 N7A        75.3180    8.2920  -61.0270 N.2       1 COA4011    -0.6073 DICT
+     27 O7A        81.1250    5.8510  -61.1890 O.co2     1 COA4011     0.0000 DICT
+     28 C8A        76.1860    7.8250  -61.9520 C.2       1 COA4011     0.2006 DICT
+     29 O8A        78.6320    6.1830  -60.7310 O.co2     1 COA4011     0.0000 DICT
+     30 N9A        76.4590    8.7450  -62.9090 N.pl3     1 COA4011    -0.0251 DICT
+     31 O9A        79.3980    3.9080  -61.4500 O.3       1 COA4011     0.0000 DICT
+     32 CCP        77.0670    1.7220  -60.4720 C.3       1 COA4011     0.0000 DICT
+     33 H1B        77.4781    9.4843  -64.6433 H         1 COA4011     0.2007 DICT
+     34 H2A        74.6730   12.9396  -63.1017 H         1 COA4011     0.0473 DICT
+     35 H2B        79.0522    8.5720  -62.6263 H         1 COA4011     0.0972 DICT
+     36 HO2A       80.6476    7.9458  -64.1526 H         1 COA4011     0.4186 DICT|ESSENTIAL
+     37 H3B        77.8351    6.4970  -62.5790 H         1 COA4011     0.0615 DICT
+     38 H4B        78.2173    5.9215  -65.5237 H         1 COA4011     0.1174 DICT
+     39 H51A       75.6159    5.7814  -64.1505 H         1 COA4011     0.0679 DICT
+     40 H52A       76.8647    4.8573  -63.2488 H         1 COA4011     0.0679 DICT
+     41 H61A       73.4546    9.5492  -59.1893 H         1 COA4011     0.4115 DICT|ESSENTIAL
+     42 H62A       72.8030   11.2027  -59.3447 H         1 COA4011     0.4115 DICT|ESSENTIAL
+     43 H8A        76.6163    6.8248  -61.9307 H         1 COA4011     0.1553 DICT
+     44 H121       76.7319    2.5736  -59.8617 H         1 COA4011     0.0000 DICT
+     45 H122       78.1255    1.5122  -60.2587 H         1 COA4011     0.0000 DICT
+@<TRIPOS>BOND
+     1    5   23 ar   DICT
+     2    5    7 ar   DICT
+     3    7   34 1    DICT
+     4    7   12 ar   DICT
+     5   12   15 ar   DICT
+     6   15   30 1    DICT
+     7   15   19 ar   DICT
+     8   19   26 1    DICT
+     9   19   23 ar   DICT
+    10   23   24 1    DICT
+    11   24   42 1    DICT
+    12   24   41 1    DICT
+    13   26   28 2    DICT
+    14   28   43 1    DICT
+    15   28   30 1    DICT
+    16   30    4 1    DICT
+    17    4   33 1    DICT
+    18    4   18 1    DICT
+    19    4    8 1    DICT
+    20    8   35 1    DICT
+    21    8   11 1    DICT
+    22    8   10 1    DICT
+    23   10   36 1    DICT
+    24   11   37 1    DICT
+    25   11   16 1    DICT
+    26   11   14 1    DICT
+    27   14    3 1    DICT
+    28    3   31 1    DICT
+    29    3   29 ar   DICT
+    30    3   27 ar   DICT
+    31   16   38 1    DICT
+    32   16   20 1    DICT
+    33   16   18 1    DICT
+    34   20   40 1    DICT
+    35   20   39 1    DICT
+    36   20   22 1    DICT
+    37   22    1 1    DICT
+    38    1   13 1    DICT
+    39    1    9 ar   DICT
+    40    1    6 ar   DICT
+    41   13    2 1    DICT
+    42    2   25 1    DICT
+    43    2   21 ar   DICT
+    44    2   17 ar   DICT
+    45   25   32 1    DICT
+    46   32   45 1    DICT
+    47   32   44 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 COA4011     5 RESIDUE           4 A     COA     0 ROOT COA A4011
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 5
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 5
+ZERO_CHARGE     STATIC     ATOMS    <user>   **** 
+12 2 3 13 17 21 25 27 29 31 32 44 45
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

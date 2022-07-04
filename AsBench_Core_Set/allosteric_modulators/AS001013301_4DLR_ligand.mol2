@@ -1,0 +1,78 @@
+#	Name:			4DLR_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Sat Nov 08 15:47:31 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sat Nov 08 15:47:31 2014
+
+@<TRIPOS>MOLECULE
+4DLR_ligand
+   18    17     1     1     9
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 S1        -15.7080   51.6960  -66.4320 S.3       1 DTU203     47.5500 
+      2 C1        -16.0270   51.5380  -68.2030 C.3       1 DTU203     25.8400 
+      3 C2        -14.7390   51.4980  -69.0120 C.3       1 DTU203     27.0300 
+      4 O2        -14.6120   52.7110  -69.7560 O.3       1 DTU203     29.3500 
+      5 C3        -13.5270   51.3380  -68.1080 C.3       1 DTU203     25.3500 
+      6 O3        -13.4500   49.9810  -67.6550 O.3       1 DTU203     46.1700 
+      7 C4        -12.2480   51.7090  -68.8470 C.3       1 DTU203     27.6400 
+      8 S4        -11.0160   50.3840  -68.8250 S.3       1 DTU203     40.6600 
+      9 H1        -16.5839   51.7188  -65.9336 H         1 DTU203      0.0000 
+     10 H2        -16.5877   50.6086  -68.3814 H         1 DTU203      0.0000 
+     11 H3        -16.6278   52.3980  -68.5338 H         1 DTU203      0.0000 
+     12 H4        -14.7807   50.6468  -69.7075 H         1 DTU203      0.0000 
+     13 H5        -13.8085   52.6892  -70.2624 H         1 DTU203      0.0000 
+     14 H6        -13.6400   52.0024  -67.2386 H         1 DTU203      0.0000 
+     15 H7        -12.6934   49.8783  -67.0898 H         1 DTU203      0.0000 
+     16 H8        -11.8135   52.6008  -68.3717 H         1 DTU203      0.0000 
+     17 H9        -12.5001   51.9371  -69.8931 H         1 DTU203      0.0000 
+     18 H10       -10.1935   50.6816  -69.3260 H         1 DTU203      0.0000 
+@<TRIPOS>BOND
+     1    8   18 1    
+     2    8    7 1    
+     3    7   17 1    
+     4    7   16 1    
+     5    7    5 1    
+     6    5   14 1    
+     7    5    6 1    
+     8    5    3 1    
+     9    3   12 1    
+    10    3    4 1    
+    11    3    2 1    
+    12    2   11 1    
+    13    2   10 1    
+    14    2    1 1    
+    15    1    9 1    
+    16    4   13 1    
+    17    6   15 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 DTU203      8 GROUP             4 A     ****    0 ROOT DTU A 203
+@<TRIPOS>SET
+LIGDB           STATIC     ATOMS    AMSOM    **** Atom types from ligand database
+8 1 2 3 4 5 6 7 8
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 8
+UNK_AMBER7_FF99 STATIC     ATOMS    <user>   **** 
+18 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+UNK_AMBER7_FF02 STATIC     ATOMS    <user>   **** 
+18 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+UNK_AMBER95_ALL STATIC     ATOMS    <user>   **** 
+18 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+UNK_KOLL_ALL    STATIC     ATOMS    <user>   **** 
+18 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+X_ATOM_TYPES    STATIC     ATOMS    <user>   **** ""
+18 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 8
+ATOM$BY_TYPE    STATIC     ATOMS    COLORGROUP SYSTEM 
+8 1 2 3 4 5 6 7 8
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

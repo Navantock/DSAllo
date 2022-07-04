@@ -1,0 +1,117 @@
+#	Name:			1JLR_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 09:27:32 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 09:27:32 2014
+
+@<TRIPOS>MOLECULE
+1JLR_ligand
+   44    46     1     1     1
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 C1'        14.3320   91.2590   73.3420 C.3       1 GTP303      0.0200 DICT
+      2 H1'        14.5410   90.5250   72.5500 H         1 GTP303      0.2000 DICT
+      3 N9         12.9730   91.8260   73.1040 N.pl3     1 GTP303      0.0500 DICT
+      4 C4         12.4380   92.9740   73.7090 C.2       1 GTP303      0.1200 DICT
+      5 C5         11.1500   93.1050   73.1610 C.2       1 GTP303      0.1700 DICT
+      6 N7         10.8960   92.1170   72.2860 N.2       1 GTP303     -0.5700 DICT
+      7 C8         11.9660   91.3970   72.2750 C.2       1 GTP303      0.1400 DICT
+      8 H8         12.0640   90.5100   71.6510 H         1 GTP303      0.1600 DICT
+      9 C6         10.3380   94.2170   73.5940 C.2       1 GTP303      0.4800 DICT
+     10 N1         11.0020   95.0750   74.5770 N.am      1 GTP303     -0.4800 DICT
+     11 HN1        10.5010   95.8680   74.9230 H         1 GTP303      0.3400 DICT|ESSENTIAL
+     12 C2         12.2830   94.8540   75.0570 C.2       1 GTP303      0.7700 DICT
+     13 N3         13.0490   93.8290   74.6650 N.2       1 GTP303     -0.6300 DICT
+     14 N2         12.7490   95.7270   75.9500 N.pl3     1 GTP303     -0.9700 DICT
+     15 HN21       13.6960   95.6110   76.3380 H         1 GTP303      0.4400 DICT|ESSENTIAL
+     16 HN22       12.1620   96.5180   76.2520 H         1 GTP303      0.4400 DICT|ESSENTIAL
+     17 O6          9.1670   94.4810   73.2000 O.2       1 GTP303     -0.5600 DICT
+     18 O4'        14.3490   90.6030   74.6030 O.3       1 GTP303     -0.3500 DICT
+     19 C4'        15.4590   91.0450   75.4390 C.3       1 GTP303      0.1100 BACKBONE|DICT|DIRECT
+     20 H4'        16.1470   90.1950   75.5590 H         1 GTP303      0.1200 DICT
+     21 C5'        15.0160   91.4290   76.8510 C.3       1 GTP303      0.0600 DICT|DIRECT
+     22 H5''       14.8240   92.5120   76.8850 H         1 GTP303      0.0700 DICT
+     23 H5'        14.0920   90.8850   77.0980 H         1 GTP303      0.0700 DICT
+     24 O5'        16.0330   91.0990   77.8260 O.3       1 GTP303     -0.6000 BACKBONE|DICT|DIRECT
+     25 PA         16.2510   89.7370   78.3850 P.3       1 GTP303      1.2500 DICT
+     26 O3A        17.6600   89.9850   79.2110 O.3       1 GTP303     -0.5700 DICT
+     27 PB         18.3740   88.8130   80.0230 P.3       1 GTP303      1.3900 DICT
+     28 O2B        19.4630   89.3570   80.8310 O.co2     1 GTP303     -0.8900 DICT
+     29 O1B        17.3270   88.0030   80.6750 O.co2     1 GTP303     -0.8900 DICT
+     30 O3B        19.2310   88.1050   78.9700 O.3       1 GTP303     -0.5300 DICT
+     31 PG         19.8720   86.7150   79.2050 P.3       1 GTP303      1.2600 DICT
+     32 O3G        20.7800   86.8210   80.3740 O.3       1 GTP303     -0.9500 DICT
+     33 O2G        20.4990   85.8800   78.0870 O.co2     1 GTP303     -0.9500 DICT
+     34 O1G        18.8560   85.7700   79.7280 O.co2     1 GTP303     -0.9500 DICT
+     35 O2A        15.1870   89.3700   79.3180 O.co2     1 GTP303     -0.8800 DICT
+     36 O1A        16.5800   88.7710   77.3010 O.co2     1 GTP303     -0.8800 DICT
+     37 C3'        16.2090   92.1210   74.6500 C.3       1 GTP303      0.2000 BACKBONE|DICT|DIRECT
+     38 H3'        16.1960   93.0700   75.2070 H         1 GTP303      0.0600 DICT
+     39 O3'        17.5630   91.7340   74.4580 O.3       1 GTP303     -0.6500 BACKBONE|DICT|DIRECT
+     40 HO3'       17.9710   91.5810   75.3020 H         1 GTP303      0.4400 DICT|ESSENTIAL
+     41 C2'        15.4290   92.2970   73.3300 C.3       1 GTP303      0.0700 DICT
+     42 H2'        14.9850   93.3030   73.3080 H         1 GTP303      0.1000 DICT
+     43 O2'        16.2380   92.1450   72.1780 O.3       1 GTP303     -0.6100 DICT
+     44 HO2'       16.6200   91.2750   72.1720 H         1 GTP303      0.4200 DICT|ESSENTIAL
+@<TRIPOS>BOND
+     1    1    3 1    DICT
+     2    1    2 1    DICT
+     3    1   18 1    DICT
+     4    1   41 1    DICT
+     5   41   42 1    DICT
+     6   41   43 1    DICT
+     7   41   37 1    DICT
+     8   37   38 1    DICT
+     9   37   39 1    BACKBONE|DICT
+    10   37   19 1    BACKBONE|DICT
+    11   19   20 1    DICT
+    12   19   18 1    DICT
+    13   19   21 1    DICT
+    14   21   22 1    DICT
+    15   21   23 1    DICT
+    16   21   24 1    DICT
+    17   24   25 1    DICT
+    18   25   26 1    DICT
+    19   25   35 ar   DICT
+    20   25   36 ar   DICT
+    21   26   27 1    DICT
+    22   27   28 ar   DICT
+    23   27   29 ar   DICT
+    24   27   30 1    DICT
+    25   30   31 1    DICT
+    26   31   32 1    DICT
+    27   31   33 ar   DICT
+    28   31   34 ar   DICT
+    29   39   40 1    DICT
+    30   43   44 1    DICT
+    31    3    4 1    DICT
+    32    3    7 1    DICT
+    33    7    8 1    DICT
+    34    7    6 2    DICT
+    35    6    5 1    DICT
+    36    5    9 1    DICT
+    37    5    4 2    DICT
+    38    4   13 1    DICT
+    39   13   12 2    DICT
+    40   12   14 1    DICT
+    41   12   10 1    DICT
+    42   10   11 1    DICT
+    43   10    9 am   DICT
+    44    9   17 2    DICT
+    45   14   15 1    DICT
+    46   14   16 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 GTP303      1 RESIDUE           4 A     GTP     0 ROOT GTP A 303
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 1
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

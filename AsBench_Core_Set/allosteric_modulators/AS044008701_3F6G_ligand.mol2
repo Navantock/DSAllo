@@ -1,0 +1,70 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 01:42:03 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 01:42:03 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   22    21     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          14.6010  -38.2120   -4.8270 N.am      1 ILE1       -0.4200 BACKBONE|DICT|DIRECT
+      2 CA         14.3260  -37.0100   -4.0310 C.3       1 ILE1       -0.0600 BACKBONE|DICT|DIRECT
+      3 C          15.6440  -36.3860   -3.5690 C.2       1 ILE1        0.6000 BACKBONE|DICT|DIRECT
+      4 O          16.5720  -37.1700   -3.2700 O.2       1 ILE1       -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         13.4780  -37.3910   -2.8140 C.3       1 ILE1        0.1300 DICT
+      6 CG1        12.1620  -38.0270   -3.2660 C.3       1 ILE1       -0.0400 DICT
+      7 CG2        13.2170  -36.1640   -1.9390 C.3       1 ILE1       -0.3200 DICT
+      8 CD1        11.2880  -38.3980   -2.0660 C.3       1 ILE1       -0.0700 DICT
+      9 OXT        15.6980  -35.1390   -3.5250 O.3       1 ILE1        0.0000 CAP|DICT
+     10 H          15.5430  -38.4550   -5.0570 H         1 ILE1        0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     11 HNCA       13.8310  -38.8000   -5.1460 H         1 ILE1        0.0000 
+     12 HA         13.7750  -36.2830   -4.6460 H         1 ILE1        0.0900 BACKBONE|DICT|DIRECT
+     13 HB         14.0340  -38.1300   -2.2180 H         1 ILE1        0.0200 DICT
+     14 HG12       11.6170  -37.3120   -3.9000 H         1 ILE1        0.0200 DICT
+     15 HG13       12.3830  -38.9360   -3.8440 H         1 ILE1        0.0200 DICT
+     16 HG21       12.6890  -35.3990   -2.5280 H         1 ILE1        0.0900 DICT
+     17 HG22       12.5990  -36.4540   -1.0760 H         1 ILE1        0.0900 DICT
+     18 HG23       14.1750  -35.7570   -1.5830 H         1 ILE1        0.0900 DICT
+     19 HD11       11.0680  -37.4940   -1.4790 H         1 ILE1        0.0200 DICT
+     20 HD12       10.3470  -38.8430   -2.4210 H         1 ILE1        0.0200 DICT
+     21 HD13       11.8210  -39.1240   -1.4350 H         1 ILE1        0.0200 DICT
+     22 HOCA       16.6030  -34.8580   -3.5980 H         1 ILE1        0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3    9 1    CAP|DICT
+     6    5    7 1    DICT
+     7    5    6 1    DICT
+     8    6    8 1    DICT
+     9    1   10 1    BACKBONE|DICT
+    10    2   12 1    BACKBONE|DICT
+    11    5   13 1    DICT
+    12    7   18 1    DICT
+    13    7   17 1    DICT
+    14    7   16 1    DICT
+    15    6   15 1    DICT
+    16    6   14 1    DICT
+    17    8   21 1    DICT
+    18    8   20 1    DICT
+    19    8   19 1    DICT
+    20    1   11 1    
+    21    9   22 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 ILE1        2 RESIDUE           4 B     ILE     0 ROOT ILE B   1
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

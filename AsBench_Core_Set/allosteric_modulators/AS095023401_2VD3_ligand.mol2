@@ -1,0 +1,67 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 13:34:49 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 13:34:49 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   20    20     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          47.4560   93.6660  109.9860 N.am      1 HIS1290    -0.4200 BACKBONE|DICT|DIRECT
+      2 CA         47.0810   94.2940  108.6750 C.3       1 HIS1290     0.0200 BACKBONE|DICT|DIRECT
+      3 C          45.7940   93.6970  108.1210 C.2       1 HIS1290     0.6000 BACKBONE|DICT|DIRECT
+      4 O          45.2120   94.2280  107.1770 O.2       1 HIS1290    -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         48.2090   94.1310  107.6510 C.3       1 HIS1290    -0.0500 DICT
+      6 CG         48.6440   92.7120  107.4490 C.2       1 HIS1290    -0.0300 DICT
+      7 CD2        47.9930   91.6450  106.9290 C.2       1 HIS1290     0.1300 DICT
+      8 ND1        49.8980   92.2600  107.8050 N.pl3     1 HIS1290    -0.3800 DICT
+      9 CE1        49.9990   90.9740  107.5140 C.2       1 HIS1290     0.2100 DICT
+     10 NE2        48.8540   90.5770  106.9850 N.2       1 HIS1290    -0.5700 DICT
+     11 OXT        45.3070   92.6630  108.5990 O.3       1 HIS1290     0.0000 CAP|DICT
+     12 H          46.8600   92.9780  110.4000 H         1 HIS1290     0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     13 HNCA       48.3190   93.9410  110.4550 H         1 HIS1290     0.0000 
+     14 HA         46.9180   95.3690  108.8450 H         1 HIS1290     0.0900 BACKBONE|DICT|DIRECT
+     15 HB2        47.8610   94.5270  106.6860 H         1 HIS1290     0.0400 DICT
+     16 HB3        49.0760   94.7140  107.9950 H         1 HIS1290     0.0400 DICT
+     17 HD1        50.6390   92.8340  108.2310 H         1 HIS1290     0.3600 DICT|ESSENTIAL
+     18 HD2        46.9760   91.6360  106.5390 H         1 HIS1290     0.1100 DICT
+     19 HE1        50.8750   90.3490  107.6810 H         1 HIS1290     0.1400 DICT
+     20 HOCA       44.7640   92.2370  107.9460 H         1 HIS1290     0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3   11 1    CAP|DICT
+     6    5    6 1    DICT
+     7    6    8 1    DICT
+     8    6    7 2    DICT
+     9    7   10 1    DICT
+    10   10    9 2    DICT
+    11    9    8 1    DICT
+    12    1   12 1    BACKBONE|DICT
+    13    2   14 1    BACKBONE|DICT
+    14    5   16 1    DICT
+    15    5   15 1    DICT
+    16    8   17 1    DICT
+    17    7   18 1    DICT
+    18    9   19 1    DICT
+    19    1   13 1    
+    20   11   20 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 HIS1290     2 RESIDUE           4 A     HIS     0 ROOT HIS A1290
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

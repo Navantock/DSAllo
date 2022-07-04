@@ -1,0 +1,58 @@
+#	Name:			1QP0_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 10:44:23 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 10:44:23 2014
+
+@<TRIPOS>MOLECULE
+1QP0_ligand
+   14    15     1     1     2
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N9         58.7040    5.9430  -10.2190 N.2       1 HPA599     -0.3000 
+      2 C8         58.5510    6.9450  -11.1450 C.2       1 HPA599      0.1000 
+      3 H10        59.0100    7.9280  -11.0490 H         1 HPA599      0.1300 
+      4 N7         57.8000    6.5980  -12.1500 N.pl3     1 HPA599     -0.2500 
+      5 H9         57.5230    7.1780  -12.9550 H         1 HPA599      0.2400 
+      6 C5         57.4520    5.2750  -11.9010 C.2       1 HPA599      0.1600 
+      7 C6         56.6640    4.3600  -12.6620 C.2       1 HPA599      0.2500 
+      8 O6         56.0640    4.4990  -13.7400 O.2       1 HPA599     -0.4000 
+      9 N1         56.5540    3.1310  -12.0250 N.am      1 HPA599     -0.2000 
+     10 H4         55.9840    2.4310  -12.4540 H         1 HPA599      0.2500 
+     11 C2         57.1810    2.8150  -10.8380 C.2       1 HPA599      0.1200 
+     12 H7         57.0630    1.7970  -10.4700 H         1 HPA599      0.1400 
+     13 N3         57.9180    3.6450  -10.1020 N.2       1 HPA599     -0.3000 
+     14 C4         58.0090    4.8620  -10.7050 C.2       1 HPA599      0.0700 
+@<TRIPOS>BOND
+     1   14   13 1    
+     2   14    6 2    
+     3   14    1 1    
+     4    1    2 2    
+     5    2    4 1    
+     6    2    3 1    
+     7    4    6 1    
+     8    4    5 1    
+     9    6    7 1    
+    10    7    9 am   
+    11    7    8 2    
+    12    9   11 1    
+    13    9   10 1    
+    14   11   13 2    
+    15   11   12 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 HPA599     14 GROUP             4 A     ****    0 ROOT HPA A 599
+@<TRIPOS>SET
+LIGDB           STATIC     ATOMS    AMSOM    **** Atom types from ligand database
+10 1 2 4 6 7 8 9 11 13 14
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 14
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

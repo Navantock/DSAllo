@@ -1,0 +1,117 @@
+#	Name:			3ETE_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Sun Nov 09 18:27:18 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sun Nov 09 18:27:18 2014
+
+@<TRIPOS>MOLECULE
+3ETE_ligand
+   44    46     1     1     1
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 C1'        12.5790   77.3480  125.8510 C.3       1 GTP553      0.0200 DICT
+      2 H1'        12.8760   77.9060  124.9510 H         1 GTP553      0.2000 DICT
+      3 N9         11.4810   78.1240  126.5390 N.pl3     1 GTP553      0.0500 DICT
+      4 C4         11.4700   78.7510  127.7700 C.2       1 GTP553      0.1200 DICT
+      5 C5         10.1760   79.3200  127.8890 C.2       1 GTP553      0.1700 DICT
+      6 N7          9.4970   79.0180  126.7840 N.2       1 GTP553     -0.5700 DICT
+      7 C8         10.2480   78.3300  125.9990 C.2       1 GTP553      0.1400 DICT
+      8 H8          9.9370   77.9580  125.0240 H         1 GTP553      0.1600 DICT
+      9 C6          9.8580   80.0470  129.0710 C.2       1 GTP553      0.4800 DICT
+     10 N1         10.8110   80.1610  130.0270 N.am      1 GTP553     -0.4800 DICT
+     11 HN1        10.6130   80.6640  130.8680 H         1 GTP553      0.3400 DICT|ESSENTIAL
+     12 C2         12.0470   79.5910  129.8490 C.2       1 GTP553      0.7700 DICT
+     13 N3         12.3590   78.9090  128.7630 N.2       1 GTP553     -0.6300 DICT
+     14 N2         12.9680   79.7210  130.8220 N.pl3     1 GTP553     -0.9700 DICT
+     15 HN21       13.9020   79.3020  130.7070 H         1 GTP553      0.4400 DICT|ESSENTIAL
+     16 HN22       12.7390   80.2390  131.6820 H         1 GTP553      0.4400 DICT|ESSENTIAL
+     17 O6          8.7560   80.5580  129.2310 O.2       1 GTP553     -0.5600 DICT
+     18 O4'        12.1010   76.0150  125.4730 O.3       1 GTP553     -0.3500 DICT
+     19 C4'        12.4010   75.1120  126.5970 C.3       1 GTP553      0.1100 BACKBONE|DICT|DIRECT
+     20 H4'        12.6020   74.1040  126.2050 H         1 GTP553      0.1200 DICT
+     21 C5'        11.2090   75.0050  127.5400 C.3       1 GTP553      0.0600 DICT|DIRECT
+     22 H5''       11.4150   74.3270  128.3810 H         1 GTP553      0.0700 DICT
+     23 H5'        10.9070   75.9890  127.9280 H         1 GTP553      0.0700 DICT
+     24 O5'        10.2440   74.4710  126.6650 O.3       1 GTP553     -0.6000 BACKBONE|DICT|DIRECT
+     25 PA          8.7750   74.2090  127.2890 P.3       1 GTP553      1.2500 DICT
+     26 O3A         8.0240   73.5770  126.0190 O.3       1 GTP553     -0.5700 DICT
+     27 PB          6.4700   73.2770  126.2230 P.3       1 GTP553      1.3900 DICT
+     28 O2B         6.2190   72.3180  127.5080 O.co2     1 GTP553     -0.8900 DICT
+     29 O1B         5.7110   74.5260  126.4210 O.co2     1 GTP553     -0.8900 DICT
+     30 O3B         6.1220   72.5290  124.7840 O.3       1 GTP553     -0.5300 DICT
+     31 PG          4.5580   72.1190  124.4950 P.3       1 GTP553      1.2600 DICT
+     32 O3G         3.8610   71.2650  125.6910 O.3       1 GTP553     -0.9500 DICT
+     33 O2G         4.5130   71.3000  123.0950 O.co2     1 GTP553     -0.9500 DICT
+     34 O1G         3.7770   73.3810  124.2400 O.co2     1 GTP553     -0.9500 DICT
+     35 O2A         8.8970   73.0680  128.3960 O.co2     1 GTP553     -0.8800 DICT
+     36 O1A         8.1130   75.4170  127.8570 O.co2     1 GTP553     -0.8800 DICT
+     37 C3'        13.6940   75.6450  127.2460 C.3       1 GTP553      0.2000 BACKBONE|DICT|DIRECT
+     38 H3'        13.6010   75.6500  128.3420 H         1 GTP553      0.0600 DICT
+     39 O3'        14.7840   74.7960  126.8790 O.3       1 GTP553     -0.6500 BACKBONE|DICT|DIRECT
+     40 HO3'       14.6060   73.9090  127.1690 H         1 GTP553      0.4400 DICT|ESSENTIAL
+     41 C2'        13.8410   77.0990  126.7300 C.3       1 GTP553      0.0700 DICT
+     42 H2'        13.8550   77.8040  127.5740 H         1 GTP553      0.1000 DICT
+     43 O2'        15.0680   77.2460  125.9750 O.3       1 GTP553     -0.6100 DICT
+     44 HO2'       15.0710   76.6290  125.2530 H         1 GTP553      0.4200 DICT|ESSENTIAL
+@<TRIPOS>BOND
+     1    1    3 1    DICT
+     2    1    2 1    DICT
+     3    1   18 1    DICT
+     4    1   41 1    DICT
+     5   41   42 1    DICT
+     6   41   43 1    DICT
+     7   41   37 1    DICT
+     8   37   38 1    DICT
+     9   37   39 1    BACKBONE|DICT
+    10   37   19 1    BACKBONE|DICT
+    11   19   20 1    DICT
+    12   19   18 1    DICT
+    13   19   21 1    DICT
+    14   21   22 1    DICT
+    15   21   23 1    DICT
+    16   21   24 1    DICT
+    17   24   25 1    DICT
+    18   25   26 1    DICT
+    19   25   35 ar   DICT
+    20   25   36 ar   DICT
+    21   26   27 1    DICT
+    22   27   28 ar   DICT
+    23   27   29 ar   DICT
+    24   27   30 1    DICT
+    25   30   31 1    DICT
+    26   31   32 1    DICT
+    27   31   33 ar   DICT
+    28   31   34 ar   DICT
+    29   39   40 1    DICT
+    30   43   44 1    DICT
+    31    3    4 1    DICT
+    32    3    7 1    DICT
+    33    7    8 1    DICT
+    34    7    6 2    DICT
+    35    6    5 1    DICT
+    36    5    9 1    DICT
+    37    5    4 2    DICT
+    38    4   13 1    DICT
+    39   13   12 2    DICT
+    40   12   14 1    DICT
+    41   12   10 1    DICT
+    42   10   11 1    DICT
+    43   10    9 am   DICT
+    44    9   17 2    DICT
+    45   14   15 1    DICT
+    46   14   16 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 GTP553      1 RESIDUE           4 A     GTP     0 ROOT GTP A 553
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 1
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

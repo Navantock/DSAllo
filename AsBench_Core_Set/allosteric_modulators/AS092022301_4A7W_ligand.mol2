@@ -1,0 +1,119 @@
+#	Name:			4A7W_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 14:08:11 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 14:08:11 2014
+
+@<TRIPOS>MOLECULE
+4A7W_ligand
+   44    46     1     1     2
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 PG         73.6350   36.2980   -4.7020 P.3       1 GTP1241     1.2650 DICT
+      2 O1G        72.6460   35.1990   -4.4080 O.co2     1 GTP1241    -0.9526 DICT
+      3 O2G        75.0380   35.7610   -4.5420 O.co2     1 GTP1241    -0.9526 DICT
+      4 O3G        73.4150   36.8560   -6.0920 O.3       1 GTP1241    -0.9526 DICT
+      5 O3B        73.3350   37.4310   -3.5930 O.3       1 GTP1241    -0.5322 DICT
+      6 PB         74.2020   38.7770   -3.4020 P.3       1 GTP1241     1.3852 DICT
+      7 O1B        75.0100   39.1230   -4.6270 O.co2     1 GTP1241    -0.8894 DICT
+      8 O2B        75.1130   38.6020   -2.2110 O.co2     1 GTP1241    -0.8894 DICT
+      9 O3A        73.0600   39.9010   -3.2420 O.3       1 GTP1241    -0.5689 DICT
+     10 PA         72.5780   40.4950   -1.8240 P.3       1 GTP1241     1.2532 DICT
+     11 O1A        72.0880   39.4080   -0.9010 O.co2     1 GTP1241    -0.8799 DICT
+     12 O2A        71.5190   41.5520   -2.0520 O.co2     1 GTP1241    -0.8799 DICT
+     13 O5'        73.9040   41.1920   -1.2190 O.3       1 GTP1241    -0.5987 BACKBONE|DICT|DIRECT
+     14 C5'        74.5280   42.3200   -1.8030 C.3       1 GTP1241     0.0558 DICT|DIRECT
+     15 C4'        75.8410   42.5860   -1.0700 C.3       1 GTP1241     0.1065 BACKBONE|DICT|DIRECT
+     16 O4'        75.4960   42.8690    0.2770 O.3       1 GTP1241    -0.3548 DICT
+     17 C3'        76.7420   41.3600   -1.0660 C.3       1 GTP1241     0.2022 BACKBONE|DICT|DIRECT
+     18 O3'        78.0820   41.7710   -1.0610 O.3       1 GTP1241    -0.6541 BACKBONE|DICT|DIRECT
+     19 C2'        76.4440   40.7260    0.2720 C.3       1 GTP1241     0.0670 DICT
+     20 O2'        77.5170   39.9730    0.7870 O.3       1 GTP1241    -0.6139 DICT
+     21 C1'        76.1310   41.9410    1.1390 C.3       1 GTP1241     0.0191 DICT
+     22 N9         75.3010   41.5000    2.2810 N.pl3     1 GTP1241     0.0492 DICT
+     23 C8         74.0940   40.8520    2.2440 C.2       1 GTP1241     0.1374 DICT
+     24 N7         73.7000   40.6140    3.5150 N.2       1 GTP1241    -0.5709 DICT
+     25 C5         74.6430   41.1040    4.3650 C.2       1 GTP1241     0.1744 DICT
+     26 C6         74.7540   41.1290    5.7550 C.2       1 GTP1241     0.4770 DICT
+     27 O6         73.8790   40.6390    6.4780 O.2       1 GTP1241    -0.5597 DICT
+     28 N1         75.8650   41.7140    6.3260 N.am      1 GTP1241    -0.4787 DICT
+     29 C2         76.8570   42.2540    5.5310 C.2       1 GTP1241     0.7657 DICT
+     30 N2         77.9250   42.8160    6.0880 N.pl3     1 GTP1241    -0.9672 DICT
+     31 N3         76.7400   42.2300    4.1580 N.2       1 GTP1241    -0.6323 DICT
+     32 C4         75.6540   41.6620    3.5910 C.2       1 GTP1241     0.1222 DICT
+     33 H5'        74.7307   42.1222   -2.8659 H         1 GTP1241     0.0679 DICT
+     34 H5''       73.8691   43.1961   -1.7123 H         1 GTP1241     0.0679 DICT
+     35 H4'        76.3666   43.4360   -1.5296 H         1 GTP1241     0.1174 DICT
+     36 H3'        76.5337   40.6853   -1.9094 H         1 GTP1241     0.0615 DICT
+     37 HO3'       78.2755   42.2297   -1.8701 H         1 GTP1241     0.4376 DICT|ESSENTIAL
+     38 H2'        75.5652   40.0689    0.1952 H         1 GTP1241     0.0972 DICT
+     39 HO2'       78.2916   40.5205    0.8396 H         1 GTP1241     0.4186 DICT|ESSENTIAL
+     40 H1'        77.0590   42.3847    1.5288 H         1 GTP1241     0.2006 DICT
+     41 H8         73.5459   40.5760    1.3444 H         1 GTP1241     0.1640 DICT
+     42 HN1        75.9528   41.7474    7.3216 H         1 GTP1241     0.3424 DICT|ESSENTIAL
+     43 HN22       78.0144   42.8476    7.1136 H         1 GTP1241     0.4364 DICT|ESSENTIAL
+     44 HN21       78.6632   43.2199    5.4940 H         1 GTP1241     0.4364 DICT|ESSENTIAL
+@<TRIPOS>BOND
+     1   21   40 1    DICT
+     2   21   22 1    DICT
+     3   21   16 1    DICT
+     4   21   19 1    DICT
+     5   19   38 1    DICT
+     6   19   20 1    DICT
+     7   19   17 1    DICT
+     8   17   36 1    DICT
+     9   17   18 1    BACKBONE|DICT
+    10   17   15 1    BACKBONE|DICT
+    11   15   35 1    DICT
+    12   15   16 1    DICT
+    13   15   14 1    DICT
+    14   14   34 1    DICT
+    15   14   33 1    DICT
+    16   14   13 1    DICT
+    17   13   10 1    DICT
+    18   10    9 1    DICT
+    19   10   12 ar   DICT
+    20   10   11 ar   DICT
+    21    9    6 1    DICT
+    22    6    8 ar   DICT
+    23    6    7 ar   DICT
+    24    6    5 1    DICT
+    25    5    1 1    DICT
+    26    1    4 1    DICT
+    27    1    3 ar   DICT
+    28    1    2 ar   DICT
+    29   18   37 1    DICT
+    30   20   39 1    DICT
+    31   22   32 1    DICT
+    32   22   23 1    DICT
+    33   23   41 1    DICT
+    34   23   24 2    DICT
+    35   24   25 1    DICT
+    36   25   26 1    DICT
+    37   25   32 2    DICT
+    38   32   31 1    DICT
+    39   31   29 2    DICT
+    40   29   30 1    DICT
+    41   29   28 1    DICT
+    42   28   42 1    DICT
+    43   28   26 am   DICT
+    44   26   27 2    DICT
+    45   30   44 1    DICT
+    46   30   43 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 GTP1241    21 RESIDUE           4 A     GTP     0 ROOT GTP A1241
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 21
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 21
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

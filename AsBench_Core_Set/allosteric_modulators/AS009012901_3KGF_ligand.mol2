@@ -1,0 +1,73 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 08:49:00 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 08:49:00 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   23    23     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          21.8440  115.9240    3.6160 N.am      1 PHE9003    -0.4200 BACKBONE|DICT|DIRECT
+      2 CA         20.4170  116.0880    3.1770 C.3       1 PHE9003    -0.0000 BACKBONE|DICT|DIRECT
+      3 C          19.4850  116.4230    4.3240 C.2       1 PHE9003     0.6000 BACKBONE|DICT|DIRECT
+      4 O          18.4550  117.0280    4.0540 O.2       1 PHE9003    -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         19.8760  114.8250    2.4860 C.3       1 PHE9003    -0.0300 DICT
+      6 CG         20.1000  113.5530    3.2610 C.ar      1 PHE9003     0.0100 DICT
+      7 CD1        21.3280  112.8820    3.1800 C.ar      1 PHE9003    -0.1300 DICT
+      8 CD2        19.0900  113.0080    4.0300 C.ar      1 PHE9003    -0.1300 DICT
+      9 CE1        21.5510  111.7050    3.8910 C.ar      1 PHE9003    -0.1700 DICT
+     10 CE2        19.2990  111.8430    4.7420 C.ar      1 PHE9003    -0.1700 DICT
+     11 CZ         20.5400  111.1860    4.6730 C.ar      1 PHE9003    -0.1100 DICT
+     12 OXT        19.7070  116.0590    5.4890 O.3       1 PHE9003     0.0000 CAP|DICT
+     13 H          22.0860  116.0300    4.5810 H         1 PHE9003     0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     14 HNCA       22.5660  115.7040    2.9300 H         1 PHE9003     0.0000 
+     15 HA         20.3880  116.9180    2.4560 H         1 PHE9003     0.1000 BACKBONE|DICT|DIRECT
+     16 HB2        18.7940  114.9510    2.3350 H         1 PHE9003     0.0300 DICT
+     17 HB3        20.3730  114.7260    1.5100 H         1 PHE9003     0.0300 DICT
+     18 HD1        22.1160  113.2850    2.5550 H         1 PHE9003     0.1300 DICT
+     19 HD2        18.1250  113.4990    4.0750 H         1 PHE9003     0.1300 DICT
+     20 HE1        22.5090  111.2020    3.8300 H         1 PHE9003     0.1400 DICT
+     21 HE2        18.5040  111.4340    5.3550 H         1 PHE9003     0.1400 DICT
+     22 HZ         20.7020  110.2730    5.2340 H         1 PHE9003     0.1300 DICT
+     23 HOCA       18.8890  116.0230    5.9710 H         1 PHE9003     0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3   12 1    CAP|DICT
+     6    5    6 1    DICT
+     7    6    7 ar   DICT
+     8    6    8 ar   DICT
+     9    8   10 ar   DICT
+    10   10   11 ar   DICT
+    11   11    9 ar   DICT
+    12    9    7 ar   DICT
+    13    1   13 1    BACKBONE|DICT
+    14    2   15 1    BACKBONE|DICT
+    15    5   17 1    DICT
+    16    5   16 1    DICT
+    17    7   18 1    DICT
+    18    8   19 1    DICT
+    19    9   20 1    DICT
+    20   10   21 1    DICT
+    21   11   22 1    DICT
+    22    1   14 1    
+    23   12   23 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PHE9003     2 RESIDUE           4 A     PHE     0 ROOT PHE A9003
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

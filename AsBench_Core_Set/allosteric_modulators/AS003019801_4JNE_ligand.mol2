@@ -1,0 +1,137 @@
+#	Name:			4JNE_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 10:14:31 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 10:14:32 2014
+
+@<TRIPOS>MOLECULE
+4JNE_ligand
+   44    47     2     1    10
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 MG         13.6490   73.0830   27.8530 Mg        1 MG1001      0.0000 
+      2 PG         13.0360   76.3780   28.1870 P.3       2 ATP1002     1.2650 DICT
+      3 O1G        12.3240   76.8740   26.9370 O.co2     2 ATP1002    -0.9526 DICT
+      4 O2G        12.8220   77.2350   29.4160 O.co2     2 ATP1002    -0.9526 DICT
+      5 O3G        12.7900   74.9390   28.4730 O.3       2 ATP1002    -0.9526 DICT
+      6 PB         15.7640   75.6640   27.2730 P.3       2 ATP1002     1.3852 DICT
+      7 O1B        15.3140   74.2370   27.1670 O.co2     2 ATP1002    -0.8894 DICT
+      8 O2B        16.3450   76.3020   26.0400 O.co2     2 ATP1002    -0.8894 DICT
+      9 O3B        14.6150   76.6190   27.9180 O.3       2 ATP1002    -0.5322 DICT
+     10 PA         18.0500   74.8520   28.8250 P.3       2 ATP1002     1.2532 DICT
+     11 O1A        18.9570   74.7950   27.6240 O.co2     2 ATP1002    -0.8799 DICT
+     12 O2A        17.5370   73.6240   29.5060 O.co2     2 ATP1002    -0.8799 DICT
+     13 O3A        16.8090   75.8270   28.4900 O.3       2 ATP1002    -0.5689 DICT
+     14 O5'        18.7840   75.7520   29.9420 O.3       2 ATP1002    -0.3548 CAP|DICT|DIRECT
+     15 C5'        19.2860   77.0370   29.5910 C.3       2 ATP1002     0.0558 DICT|DIRECT
+     16 C4'        19.4310   77.8380   30.8860 C.3       2 ATP1002     0.1065 CAP|DICT|DIRECT
+     17 O4'        20.2570   77.0930   31.7800 O.3       2 ATP1002    -0.3548 DICT
+     18 C3'        20.1080   79.1910   30.6890 C.3       2 ATP1002     0.2022 CAP|DICT|DIRECT
+     19 O3'        19.3970   80.1480   31.4870 O.3       2 ATP1002    -0.6541 CAP|DICT|DIRECT
+     20 C2'        21.5080   78.9790   31.2330 C.3       2 ATP1002     0.0670 DICT
+     21 O2'        22.1510   80.1510   31.7420 O.3       2 ATP1002    -0.6139 DICT
+     22 C1'        21.2240   77.9790   32.3250 C.3       2 ATP1002     0.0394 BACKBONE|DICT
+     23 N9         22.4140   77.2010   32.6960 N.pl3     2 ATP1002    -0.0251 DICT
+     24 C8         23.2050   76.4750   31.8840 C.2       2 ATP1002     0.2006 DICT
+     25 N7         24.1990   75.8870   32.6020 N.2       2 ATP1002    -0.6073 DICT
+     26 C5         24.0320   76.2460   33.8890 C.ar      2 ATP1002     0.0515 DICT
+     27 C6         24.7320   75.9910   35.1580 C.ar      2 ATP1002     0.7009 DICT
+     28 N6         25.8370   75.2010   35.1770 N.pl3     2 ATP1002    -0.9019 DICT
+     29 N1         24.2280   76.5650   36.2790 N.ar      2 ATP1002    -0.7615 DICT
+     30 C2         23.1310   77.3510   36.2540 C.ar      2 ATP1002     0.5875 DICT
+     31 N3         22.4510   77.6370   35.1280 N.ar      2 ATP1002    -0.6997 DICT
+     32 C4         22.8530   77.1170   33.9450 C.ar      2 ATP1002     0.3053 DICT
+     33 H5'1       20.2645   76.9372   29.0986 H         2 ATP1002     0.0679 DICT
+     34 H5'2       18.5838   77.5429   28.9121 H         2 ATP1002     0.0679 DICT
+     35 H4'        18.4342   77.9915   31.3250 H         2 ATP1002     0.1174 DICT
+     36 H3'        20.1262   79.4977   29.6328 H         2 ATP1002     0.0615 DICT
+     37 HO3'       19.7962   81.0040   31.3853 H         2 ATP1002     0.4376 DICT|ESSENTIAL
+     38 H2'        22.1560   78.5438   30.4579 H         2 ATP1002     0.0972 DICT
+     39 HO2'       23.0382   79.9364   32.0051 H         2 ATP1002     0.4186 DICT|ESSENTIAL
+     40 H1'        20.8293   78.4920   33.2144 H         2 ATP1002     0.2007 DICT
+     41 H8         23.0687   76.3733   30.8084 H         2 ATP1002     0.1553 DICT
+     42 HN61       26.2135   74.8208   34.2969 H         2 ATP1002     0.4115 DICT|ESSENTIAL
+     43 HN62       26.2984   74.9822   36.0715 H         2 ATP1002     0.4115 DICT|ESSENTIAL
+     44 H2         22.7796   77.7735   37.1884 H         2 ATP1002     0.0473 DICT
+@<TRIPOS>BOND
+     1   22   40 1    DICT
+     2   22   23 1    DICT
+     3   22   17 1    DICT
+     4   22   20 1    DICT
+     5   20   38 1    DICT
+     6   20   21 1    DICT
+     7   20   18 1    CAP|DICT
+     8   18   36 1    CAP|DICT
+     9   18   19 1    CAP|DICT
+    10   18   16 1    CAP|DICT
+    11   16   35 1    CAP|DICT
+    12   16   17 1    CAP|DICT
+    13   16   15 1    CAP|DICT
+    14   15   34 1    DICT
+    15   15   33 1    DICT
+    16   15   14 1    CAP|DICT
+    17   14   10 1    CAP|DICT
+    18   10   13 1    DICT
+    19   10   12 ar   DICT
+    20   10   11 ar   DICT
+    21   13    6 1    DICT
+    22    6    8 ar   DICT
+    23    6    7 ar   DICT
+    24    6    9 1    DICT
+    25    9    2 1    DICT
+    26    2    5 1    DICT
+    27    2    4 ar   DICT
+    28    2    3 ar   DICT
+    29   19   37 1    CAP|DICT
+    30   21   39 1    DICT
+    31   23   24 1    DICT
+    32   23   32 1    DICT
+    33   32   26 ar   DICT
+    34   32   31 ar   DICT
+    35   31   30 ar   DICT
+    36   30   44 1    DICT
+    37   30   29 ar   DICT
+    38   29   27 ar   DICT
+    39   27   28 1    DICT
+    40   27   26 ar   DICT
+    41   26   25 1    DICT
+    42   25   24 2    DICT
+    43   24   41 1    DICT
+    44   28   43 1    DICT
+    45   28   42 1    DICT
+    46    7    1 du   
+    47    5    1 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MG1001      1 GROUP             4 A     ****    2 ****  MG A1001
+     2 ATP1002    22 RESIDUE           4 A     ATP     2 ROOT ATP A1002
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+2 1 22
+SITE_AC1        STATIC     SUBSTS   AMSOM    **** 
+1 22
+SITE_AC2        STATIC     SUBSTS   AMSOM    **** 
+1 1
+UNK_AMBER7_FF99 STATIC     ATOMS    <user>   **** 
+1 1
+UNK_AMBER7_FF02 STATIC     ATOMS    <user>   **** 
+1 1
+UNK_AMBER95_ALL STATIC     ATOMS    <user>   **** 
+1 1
+UNK_KOLL_ALL    STATIC     ATOMS    <user>   **** 
+1 1
+X_ATOM_TYPES    STATIC     ATOMS    <user>   **** ""
+1 1
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+2 1 22
+ZERO_CHARGE     STATIC     ATOMS    <user>   **** 
+1 1
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

@@ -1,0 +1,96 @@
+#	Name:			AS009028501_4A2U_complex_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 15:18:09 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 15:18:09 2014
+
+@<TRIPOS>MOLECULE
+AS009028501_4A2U_complex_ligand
+   33    36     1     1     1
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 C1'        86.4820   72.2330   -2.2140 C.3       1 CMP280      0.0000 DICT
+      2 H1'        86.7570   71.2990   -1.7010 H         1 CMP280      0.0000 DICT
+      3 N9         86.7980   73.3950   -1.4030 N.pl3     1 CMP280      0.0000 DICT
+      4 C8         86.8890   74.6720   -1.8220 C.2       1 CMP280      0.0000 DICT
+      5 H8         86.7220   74.9840   -2.8520 H         1 CMP280      0.0000 DICT
+      6 N7         87.2100   75.5240   -0.8230 N.2       1 CMP280      0.0000 DICT
+      7 C5         87.3350   74.7440    0.2460 C.ar      1 CMP280      0.0000 DICT
+      8 C6         87.6590   74.9960    1.6220 C.ar      1 CMP280      0.0000 DICT
+      9 N6         87.9030   76.2740    2.0230 N.pl3     1 CMP280      0.0000 DICT
+     10 HN62       88.1200   76.4710    3.0100 H         1 CMP280      0.0000 DICT|ESSENTIAL
+     11 HN61       87.8700   77.0430    1.3390 H         1 CMP280      0.0000 DICT|ESSENTIAL
+     12 N1         87.6780   73.9320    2.4310 N.ar      1 CMP280      0.0000 DICT
+     13 C2         87.4190   72.6760    2.0390 C.ar      1 CMP280      0.0000 DICT
+     14 H2         87.4540   71.8820    2.7760 H         1 CMP280      0.0000 DICT
+     15 N3         87.1210   72.3680    0.7800 N.ar      1 CMP280      0.0000 DICT
+     16 C4         87.0600   73.3560   -0.1270 C.ar      1 CMP280      0.0000 DICT
+     17 O4'        87.1550   72.3510   -3.4770 O.3       1 CMP280      0.0000 DICT
+     18 C4'        86.1790   72.0230   -4.4530 C.3       1 CMP280      0.0000 BACKBONE|DICT|DIRECT
+     19 H4'        85.9660   70.9440   -4.4360 H         1 CMP280      0.0000 DICT
+     20 C5'        86.5080   72.4120   -5.8750 C.3       1 CMP280      0.0000 DICT|DIRECT
+     21 H5'2       86.8380   73.4600   -5.9170 H         1 CMP280      0.0000 DICT
+     22 H5'1       87.3000   71.7620   -6.2750 H         1 CMP280      0.0000 DICT
+     23 O5'        85.2980   72.2410   -6.6250 O.3       1 CMP280      0.0000 BACKBONE|DICT|DIRECT
+     24 P          83.9760   73.0460   -6.1650 P.3       1 CMP280      0.0000 BACKBONE|DICT|DIRECT
+     25 O2P        84.3480   74.5250   -6.1490 O.co2     1 CMP280      0.0000 DICT
+     26 O1P        82.7920   72.5050   -6.8940 O.co2     1 CMP280      0.0000 DICT
+     27 O3'        83.8670   72.5530   -4.6630 O.3       1 CMP280      0.0000 BACKBONE|DICT|DIRECT
+     28 C3'        85.0250   72.8180   -3.9070 C.3       1 CMP280      0.0000 BACKBONE|DICT|DIRECT
+     29 H3'        85.2240   73.9000   -3.9250 H         1 CMP280      0.0000 DICT
+     30 C2'        85.0030   72.3020   -2.4950 C.3       1 CMP280      0.0000 DICT
+     31 H2'        84.4470   72.9430   -1.7950 H         1 CMP280      0.0000 DICT
+     32 O2'        84.5020   70.9760   -2.5250 O.3       1 CMP280      0.0000 DICT
+     33 HO2'       84.9920   70.4670   -3.1590 H         1 CMP280      0.0000 DICT|ESSENTIAL
+@<TRIPOS>BOND
+     1    1    2 1    DICT
+     2    1    3 1    DICT
+     3    1   17 1    DICT
+     4    1   30 1    DICT
+     5   30   31 1    DICT
+     6   30   32 1    DICT
+     7   30   28 1    DICT
+     8   28   29 1    DICT
+     9   28   27 1    BACKBONE|DICT
+    10   28   18 1    BACKBONE|DICT
+    11   18   19 1    DICT
+    12   18   17 1    DICT
+    13   18   20 1    DICT
+    14   20   21 1    DICT
+    15   20   22 1    DICT
+    16   20   23 1    DICT
+    17   23   24 1    BACKBONE|DICT
+    18   24   25 ar   DICT
+    19   24   26 ar   DICT
+    20   24   27 1    BACKBONE|DICT
+    21   32   33 1    DICT
+    22    3    4 1    DICT
+    23    3   16 1    DICT
+    24   16    7 ar   DICT
+    25   16   15 ar   DICT
+    26   15   13 ar   DICT
+    27   13   14 1    DICT
+    28   13   12 ar   DICT
+    29   12    8 ar   DICT
+    30    8    9 1    DICT
+    31    8    7 ar   DICT
+    32    7    6 1    DICT
+    33    6    4 2    DICT
+    34    4    5 1    DICT
+    35    9   10 1    DICT
+    36    9   11 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 CMP280      1 RESIDUE           4 A     CMP     0 ROOT CMP A 280
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 1
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

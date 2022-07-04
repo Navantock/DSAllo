@@ -1,0 +1,48 @@
+#	Name:			1GZ3_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 02:06:10 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 02:06:10 2014
+
+@<TRIPOS>MOLECULE
+1GZ3_ligand
+   10     9     1     1     2
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 O8          3.0050   20.0290   22.3060 O.co2     1 FUM605     -0.5600 
+      2 C6          3.4490   21.0540   21.7330 C.2       1 FUM605      0.0600 
+      3 O7          2.6880   21.9320   21.3540 O.co2     1 FUM605     -0.5600 
+      4 C5          4.9370   21.1520   21.5200 C.2       1 FUM605     -0.0100 
+      5 H3          5.5130   20.2340   21.4130 H         1 FUM605      0.0700 
+      6 C4          5.5990   22.3660   21.4550 C.2       1 FUM605     -0.0100 
+      7 H1          5.0200   23.2840   21.5430 H         1 FUM605      0.0700 
+      8 C2          7.1210   22.4680   21.2630 C.2       1 FUM605      0.0600 
+      9 O3          7.8500   21.4570   21.1600 O.co2     1 FUM605     -0.5600 
+     10 O1          7.5690   23.6550   21.2210 O.co2     1 FUM605     -0.5600 
+@<TRIPOS>BOND
+     1   10    8 ar   
+     2    8    9 ar   
+     3    8    6 1    
+     4    6    7 1    
+     5    6    4 2    
+     6    4    5 1    
+     7    4    2 1    
+     8    2    3 ar   
+     9    2    1 ar   
+@<TRIPOS>SUBSTRUCTURE
+     1 FUM605     10 GROUP             4 A     ****    0 ROOT FUM A 605
+@<TRIPOS>SET
+LIGDB           STATIC     ATOMS    AMSOM    **** Atom types from ligand database
+8 1 2 3 4 6 8 9 10
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 10
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

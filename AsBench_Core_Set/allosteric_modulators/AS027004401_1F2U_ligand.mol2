@@ -1,0 +1,119 @@
+#	Name:			1F2U_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 10:41:22 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 10:41:22 2014
+
+@<TRIPOS>MOLECULE
+1F2U_ligand
+   43    45     1     1     3
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 PG          8.2520   -2.0900   -5.8770 P.3       1 ATP901      1.2650 DICT
+      2 O1G         7.3610   -3.1140   -6.4270 O.co2     1 ATP901     -0.9526 DICT
+      3 O2G         7.7390   -1.3110   -4.7410 O.co2     1 ATP901     -0.9526 DICT
+      4 O3G         9.6020   -2.6870   -5.6090 O.3       1 ATP901     -0.9526 DICT
+      5 PB          7.9620   -0.8540   -8.6580 P.3       1 ATP901      1.3852 DICT
+      6 O1B         7.1850   -2.0760   -9.0120 O.co2     1 ATP901     -0.8894 DICT
+      7 O2B         9.1880   -0.5930   -9.4490 O.co2     1 ATP901     -0.8894 DICT
+      8 O3B         8.3450   -0.9130   -7.0170 O.3       1 ATP901     -0.5322 DICT
+      9 PA          5.6080    0.5090   -9.7020 P.3       1 ATP901      1.2532 DICT
+     10 O1A         5.9650    0.3040  -11.0900 O.co2     1 ATP901     -0.8799 DICT
+     11 O2A         4.5160   -0.2990   -9.1200 O.co2     1 ATP901     -0.8799 DICT
+     12 O3A         6.9780    0.3480   -8.8820 O.3       1 ATP901     -0.5689 DICT
+     13 O5'         5.2480    1.9980   -9.5950 O.3       1 ATP901     -0.3548 CAP|DICT|DIRECT
+     14 C5'         4.8340    2.6340   -8.4560 C.3       1 ATP901      0.0558 DICT|DIRECT
+     15 C4'         5.3140    4.0320   -8.4740 C.3       1 ATP901      0.1065 CAP|DICT|DIRECT
+     16 O4'         4.7220    4.7190   -9.6250 O.3       1 ATP901     -0.3548 DICT
+     17 C3'         4.8750    4.6940   -7.2400 C.3       1 ATP901      0.2022 CAP|DICT|DIRECT
+     18 O3'         6.0600    4.8970   -6.4760 O.3       1 ATP901     -0.6541 CAP|DICT|DIRECT
+     19 C2'         4.1510    5.9390   -7.7040 C.3       1 ATP901      0.0670 DICT
+     20 O2'         4.6350    7.1280   -7.1200 O.3       1 ATP901     -0.6139 DICT
+     21 C1'         4.2650    6.0290   -9.2530 C.3       1 ATP901      0.0394 BACKBONE|DICT
+     22 N9          2.9250    6.3070   -9.8930 N.pl3     1 ATP901     -0.0251 DICT
+     23 C8          1.7620    5.5790   -9.7820 C.2       1 ATP901      0.2006 DICT
+     24 N7          0.7340    6.0470  -10.4250 N.2       1 ATP901     -0.6073 DICT
+     25 C5          1.2470    7.1700  -11.0390 C.ar      1 ATP901      0.0515 DICT
+     26 C6          0.6410    8.1670  -11.8620 C.ar      1 ATP901      0.7009 DICT
+     27 N6         -0.6340    8.0740  -12.2260 N.pl3     1 ATP901     -0.9019 DICT
+     28 N1          1.4050    9.1950  -12.3160 N.ar      1 ATP901     -0.7615 DICT
+     29 C2          2.6940    9.2740  -11.9410 C.ar      1 ATP901      0.5875 DICT
+     30 N3          3.3900    8.4120  -11.1560 N.ar      1 ATP901     -0.6997 DICT
+     31 C4          2.5780    7.3730  -10.7060 C.ar      1 ATP901      0.3053 DICT
+     32 H5'1        3.7351    2.6235   -8.4083 H         1 ATP901      0.0679 DICT
+     33 H5'2        5.2441    2.1161   -7.5764 H         1 ATP901      0.0679 DICT
+     34 H4'         6.4115    4.0550   -8.5449 H         1 ATP901      0.1174 DICT
+     35 H3'         4.1802    4.0619   -6.6675 H         1 ATP901      0.0615 DICT
+     36 HO3'        5.8395    5.3260   -5.6576 H         1 ATP901      0.4376 DICT|ESSENTIAL
+     37 H2'         3.0902    5.8379   -7.4311 H         1 ATP901      0.0972 DICT
+     38 HO2'        4.0323    7.8390   -7.3035 H         1 ATP901      0.4186 DICT|ESSENTIAL
+     39 H1'         4.9860    6.8044   -9.5510 H         1 ATP901      0.2007 DICT
+     40 H8          1.7066    4.6660   -9.1910 H         1 ATP901      0.1553 DICT
+     41 HN61       -1.2244    7.3204  -11.8460 H         1 ATP901      0.4115 DICT|ESSENTIAL
+     42 HN62       -1.0316    8.7556  -12.8881 H         1 ATP901      0.4115 DICT|ESSENTIAL
+     43 H2          3.2451   10.1311  -12.3108 H         1 ATP901      0.0473 DICT
+@<TRIPOS>BOND
+     1   21   39 1    DICT
+     2   21   22 1    DICT
+     3   21   16 1    DICT
+     4   21   19 1    DICT
+     5   19   37 1    DICT
+     6   19   20 1    DICT
+     7   19   17 1    CAP|DICT
+     8   17   35 1    CAP|DICT
+     9   17   18 1    CAP|DICT
+    10   17   15 1    CAP|DICT
+    11   15   34 1    CAP|DICT
+    12   15   16 1    CAP|DICT
+    13   15   14 1    CAP|DICT
+    14   14   33 1    DICT
+    15   14   32 1    DICT
+    16   14   13 1    CAP|DICT
+    17   13    9 1    CAP|DICT
+    18    9   12 1    DICT
+    19    9   11 ar   DICT
+    20    9   10 ar   DICT
+    21   12    5 1    DICT
+    22    5    7 ar   DICT
+    23    5    6 ar   DICT
+    24    5    8 1    DICT
+    25    8    1 1    DICT
+    26    1    4 1    DICT
+    27    1    3 ar   DICT
+    28    1    2 ar   DICT
+    29   18   36 1    CAP|DICT
+    30   20   38 1    DICT
+    31   22   23 1    DICT
+    32   22   31 1    DICT
+    33   31   25 ar   DICT
+    34   31   30 ar   DICT
+    35   30   29 ar   DICT
+    36   29   43 1    DICT
+    37   29   28 ar   DICT
+    38   28   26 ar   DICT
+    39   26   27 1    DICT
+    40   26   25 ar   DICT
+    41   25   24 1    DICT
+    42   24   23 2    DICT
+    43   23   40 1    DICT
+    44   27   42 1    DICT
+    45   27   41 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 ATP901     21 RESIDUE           4 A     ATP     0 ROOT ATP A 901
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 21
+SITE_AC1        STATIC     SUBSTS   AMSOM    **** 
+1 21
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 21
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

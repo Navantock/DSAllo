@@ -1,0 +1,111 @@
+#	Name:			1XMV_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 10:28:44 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 10:28:44 2014
+
+@<TRIPOS>MOLECULE
+1XMV_ligand
+   39    41     1     1     3
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 PB         23.8020    6.8150    8.6530 P.3       1 ADP400      1.3672 DICT
+      2 O1B        22.4020    6.9600    9.1080 O.co2     1 ADP400     -0.9552 DICT
+      3 O2B        24.0450    5.5450    7.8930 O.co2     1 ADP400     -0.9552 DICT
+      4 O3B        24.2510    8.1160    7.9080 O.3       1 ADP400     -0.9552 DICT
+      5 PA         25.6660    7.6600   10.7040 P.3       1 ADP400      1.4929 DICT
+      6 O1A        24.9950    8.9940   10.8660 O.co2     1 ADP400     -0.9474 DICT
+      7 O2A        26.9890    7.6690    9.9850 O.co2     1 ADP400     -0.9474 DICT
+      8 O3A        24.6120    6.7080   10.0220 O.3       1 ADP400     -0.6346 DICT
+      9 O5'        25.7090    7.1270   12.1840 O.3       1 ADP400     -0.6579 DICT|DIRECT
+     10 C5'        26.3070    5.8470   12.5350 C.3       1 ADP400      0.0558 DICT|DIRECT
+     11 C4'        26.9420    5.9200   13.9250 C.3       1 ADP400      0.1065 DICT|DIRECT
+     12 O4'        27.8280    7.0820   13.9270 O.3       1 ADP400     -0.3548 DICT
+     13 C3'        25.9710    6.2140   15.0810 C.3       1 ADP400      0.2022 DICT|DIRECT
+     14 O3'        25.3920    4.9720   15.5280 O.3       1 ADP400     -0.6541 DICT|DIRECT
+     15 C2'        26.8800    6.9500   16.0730 C.3       1 ADP400      0.0670 DICT
+     16 O2'        27.6460    6.0690   16.9130 O.3       1 ADP400     -0.6139 DICT
+     17 C1'        27.8300    7.7720   15.1820 C.3       1 ADP400      0.0394 BACKBONE|DICT
+     18 N9         27.2990    9.1860   14.9830 N.pl3     1 ADP400     -0.0251 DICT
+     19 C8         26.6150    9.6700   13.9050 C.2       1 ADP400      0.2006 DICT
+     20 N7         26.2760   10.9610   14.0210 N.2       1 ADP400     -0.6073 DICT
+     21 C5         26.7690   11.3170   15.2300 C.ar      1 ADP400      0.0515 DICT
+     22 C6         26.7300   12.5820   15.9330 C.ar      1 ADP400      0.7009 DICT
+     23 N6         26.1850   13.6660   15.5070 N.pl3     1 ADP400     -0.9019 DICT
+     24 N1         27.3560   12.5580   17.1730 N.ar      1 ADP400     -0.7615 DICT
+     25 C2         27.9680   11.4240   17.7030 C.ar      1 ADP400      0.5875 DICT
+     26 N3         28.0110   10.2460   17.0650 N.ar      1 ADP400     -0.6997 DICT
+     27 C4         27.4090   10.2370   15.8500 C.ar      1 ADP400      0.3053 DICT
+     28 H5'1       25.5284    5.0700   12.5323 H         1 ADP400      0.0679 DICT
+     29 H5'2       27.0808    5.5932   11.7956 H         1 ADP400      0.0679 DICT
+     30 H4'        27.4912    4.9877   14.1231 H         1 ADP400      0.1174 DICT
+     31 H3'        25.1564    6.8802   14.7607 H         1 ADP400      0.0615 DICT
+     32 HO3'       26.0351    4.4855   16.0303 H         1 ADP400      0.4376 DICT|ESSENTIAL
+     33 H2'        26.2768    7.6124   16.7111 H         1 ADP400      0.0972 DICT
+     34 HO2'       28.1104    6.5788   17.5664 H         1 ADP400      0.4186 DICT|ESSENTIAL
+     35 H1'        28.8407    7.8086   15.6146 H         1 ADP400      0.2007 DICT
+     36 H8         26.3685    9.0645   13.0341 H         1 ADP400      0.1553 DICT
+     37 HN61       25.6823   13.6709   14.6080 H         1 ADP400      0.4115 DICT|ESSENTIAL
+     38 HN62       26.2512   14.5294   16.0648 H         1 ADP400      0.4115 DICT|ESSENTIAL
+     39 H2         28.4324   11.4981   18.6797 H         1 ADP400      0.0473 DICT
+@<TRIPOS>BOND
+     1   17   35 1    DICT
+     2   17   18 1    DICT
+     3   17   12 1    DICT
+     4   17   15 1    DICT
+     5   15   33 1    DICT
+     6   15   16 1    DICT
+     7   15   13 1    DICT
+     8   13   31 1    DICT
+     9   13   14 1    DICT
+    10   13   11 1    DICT
+    11   11   30 1    DICT
+    12   11   12 1    DICT
+    13   11   10 1    DICT
+    14   10   29 1    DICT
+    15   10   28 1    DICT
+    16   10    9 1    DICT
+    17    9    5 1    DICT
+    18    5    8 1    DICT
+    19    5    7 ar   DICT
+    20    5    6 ar   DICT
+    21    8    1 1    DICT
+    22    1    3 ar   DICT
+    23    1    2 ar   DICT
+    24    1    4 1    DICT
+    25   14   32 1    DICT
+    26   16   34 1    DICT
+    27   18   19 1    DICT
+    28   18   27 1    DICT
+    29   27   21 ar   DICT
+    30   27   26 ar   DICT
+    31   26   25 ar   DICT
+    32   25   39 1    DICT
+    33   25   24 ar   DICT
+    34   24   22 ar   DICT
+    35   22   23 1    DICT
+    36   22   21 ar   DICT
+    37   21   20 1    DICT
+    38   20   19 2    DICT
+    39   19   36 1    DICT
+    40   23   38 1    DICT
+    41   23   37 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 ADP400     17 RESIDUE           4 A     ADP     0 ROOT ADP A 400
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 17
+SITE_AC1        STATIC     SUBSTS   AMSOM    **** 
+1 17
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 17
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

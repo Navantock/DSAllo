@@ -1,0 +1,70 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Sun Nov 09 15:29:52 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sun Nov 09 15:29:52 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   22    21     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          30.7210   13.3610   52.2800 N.am      1 ORN5011     0.0000 BACKBONE|DICT|DIRECT
+      2 CA         31.4250   14.5320   51.8100 C.3       1 ORN5011     0.0000 BACKBONE|DICT|DIRECT
+      3 C          31.5660   14.4670   50.3190 C.2       1 ORN5011     0.0000 BACKBONE|DICT|DIRECT
+      4 O          32.1690   13.4600   49.8050 O.2       1 ORN5011     0.0000 BACKBONE|DICT
+      5 CB         32.8360   14.4370   52.2900 C.3       1 ORN5011     0.0000 DICT
+      6 CG         33.2210   15.4300   53.3300 C.3       1 ORN5011     0.0000 DICT
+      7 CD         34.6000   16.0120   53.0530 C.3       1 ORN5011     0.0000 DICT
+      8 NE         35.7310   15.1530   53.5390 N.4       1 ORN5011     0.0000 DICT
+      9 OXT        31.1090   15.4210   49.6300 O.3       1 ORN5011     0.0000 CAP|DICT
+     10 H          30.2300   12.7790   51.6320 H         1 ORN5011     0.0000 BACKBONE|DICT|ESSENTIAL
+     11 HNCA       30.7250   13.1280   53.2730 H         1 ORN5011     0.0000 
+     12 HA         30.9280   15.4560   52.1400 H         1 ORN5011     0.0000 BACKBONE|DICT
+     13 HB2        32.9860   13.4310   52.7080 H         1 ORN5011     0.0000 DICT
+     14 HB3        33.5000   14.5770   51.4240 H         1 ORN5011     0.0000 DICT
+     15 HG1        32.4830   16.2450   53.3380 H         1 ORN5011     0.0000 DICT
+     16 HG2        33.2310   14.9350   54.3120 H         1 ORN5011     0.0000 DICT
+     17 HD2        34.7080   16.1450   51.9660 H         1 ORN5011     0.0000 DICT
+     18 HD3        34.6690   16.9900   53.5510 H         1 ORN5011     0.0000 DICT
+     19 HE1        35.3780   14.2430   53.7900 H         1 ORN5011     0.0000 DICT|ESSENTIAL
+     20 HE2        36.4180   15.0560   52.8080 H         1 ORN5011     0.0000 DICT|ESSENTIAL
+     21 HE3        36.1570   15.5830   54.3450 H         1 ORN5011     0.0000 DICT|ESSENTIAL
+     22 HOCA       30.9190   15.1140   48.7510 H         1 ORN5011     0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3    9 1    CAP|DICT
+     6    5    6 1    DICT
+     7    6    7 1    DICT
+     8    7    8 1    DICT
+     9    2   12 1    BACKBONE|DICT
+    10    1   10 1    BACKBONE|DICT
+    11    5   14 1    DICT
+    12    5   13 1    DICT
+    13    6   16 1    DICT
+    14    6   15 1    DICT
+    15    7   18 1    DICT
+    16    7   17 1    DICT
+    17    8   19 1    DICT
+    18    8   21 1    DICT
+    19    8   20 1    DICT
+    20    1   11 1    
+    21    9   22 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 ORN5011     2 RESIDUE           4 A     ORN     0 ROOT ORN A5011
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

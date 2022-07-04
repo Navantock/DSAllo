@@ -1,0 +1,80 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Sun Nov 09 20:24:56 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sun Nov 09 20:24:56 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   27    26     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N         121.5210  133.2660  -14.8000 N.am      1 ARG501     -0.3500 BACKBONE|DICT|DIRECT
+      2 CA        120.8100  131.9990  -14.6990 C.3       1 ARG501     -0.2600 BACKBONE|DICT|DIRECT
+      3 C         119.3550  132.1870  -15.1640 C.2       1 ARG501      0.7300 BACKBONE|DICT|DIRECT
+      4 O         118.8650  133.3270  -15.2110 O.2       1 ARG501     -0.5900 BACKBONE|DICT|DIRECT
+      5 CB        120.8340  131.4950  -13.2450 C.3       1 ARG501     -0.0000 DICT
+      6 CG        119.8800  132.2550  -12.3020 C.3       1 ARG501      0.0400 DICT
+      7 CD        119.6980  131.4820  -11.0080 C.3       1 ARG501      0.0500 DICT
+      8 NE        118.4920  131.8590  -10.2530 N.pl3     1 ARG501     -0.5300 DICT
+      9 CZ        118.3130  131.5880   -8.9550 C.cat     1 ARG501      0.8100 DICT
+     10 NH1       119.2600  130.9240   -8.2860 N.pl3     1 ARG501     -0.8600 DICT
+     11 NH2       117.1770  131.9350   -8.3370 N.pl3     1 ARG501     -0.8600 DICT
+     12 OXT       118.6200  131.2340  -15.4590 O.3       1 ARG501      0.0000 CAP|DICT
+     13 H         121.0460  134.0810  -15.1330 H         1 ARG501      0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     14 HNCA      122.5030  133.3230  -14.5310 H         1 ARG501      0.0000 
+     15 HA        121.3020  131.2570  -15.3450 H         1 ARG501      0.1600 BACKBONE|DICT|DIRECT
+     16 HB2       120.5490  130.4330  -13.2420 H         1 ARG501      0.0300 DICT
+     17 HB3       121.8590  131.6010  -12.8590 H         1 ARG501      0.0300 DICT
+     18 HG2       120.3030  133.2450  -12.0780 H         1 ARG501      0.0300 DICT
+     19 HG3       118.9030  132.3760  -12.7930 H         1 ARG501      0.0300 DICT
+     20 HD2       119.6340  130.4110  -11.2500 H         1 ARG501      0.0700 DICT
+     21 HD3       120.5760  131.6620  -10.3700 H         1 ARG501      0.0700 DICT
+     22 HE        117.7430  132.3600  -10.7520 H         1 ARG501      0.3500 DICT|ESSENTIAL
+     23 HH11      120.1190  130.6250   -8.7700 H         1 ARG501      0.4500 DICT|ESSENTIAL
+     24 HH12      119.1310  130.7110   -7.2870 H         1 ARG501      0.4500 DICT|ESSENTIAL
+     25 HH21      116.4310  132.4150   -8.8610 H         1 ARG501      0.4500 DICT|ESSENTIAL
+     26 HH22      117.0490  131.7220   -7.3370 H         1 ARG501      0.4500 DICT|ESSENTIAL
+     27 HOCA      117.9390  131.5310  -16.0510 H         1 ARG501      0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3   12 1    CAP|DICT
+     6    5    6 1    DICT
+     7    6    7 1    DICT
+     8    7    8 1    DICT
+     9    8    9 ar   DICT
+    10    9   11 ar   DICT
+    11    9   10 ar   DICT
+    12    1   13 1    BACKBONE|DICT
+    13   10   23 1    DICT
+    14   10   24 1    DICT
+    15    2   15 1    BACKBONE|DICT
+    16    5   17 1    DICT
+    17    5   16 1    DICT
+    18    6   19 1    DICT
+    19    6   18 1    DICT
+    20    7   21 1    DICT
+    21    7   20 1    DICT
+    22    8   22 1    DICT
+    23   11   25 1    DICT
+    24   11   26 1    DICT
+    25    1   14 1    
+    26   12   27 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 ARG501      2 RESIDUE           4 A     ARG     0 ROOT ARG A 501
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

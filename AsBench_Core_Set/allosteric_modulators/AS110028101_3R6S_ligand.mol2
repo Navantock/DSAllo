@@ -1,0 +1,98 @@
+#	Name:			3R6S_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 12:29:57 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 12:29:57 2014
+
+@<TRIPOS>MOLECULE
+3R6S_ligand
+   33    36     1     1     2
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 P         -23.0150   33.5050  -12.1220 P.3       1 CMP301     27.4400 BACKBONE|DICT|DIRECT
+      2 O1P       -22.5130   32.1420  -12.1570 O.co2     1 CMP301     28.5000 DICT
+      3 O2P       -22.4760   34.5280  -13.0270 O.co2     1 CMP301     28.1100 DICT
+      4 O5'       -24.6620   33.3630  -12.3810 O.3       1 CMP301     25.9900 BACKBONE|DICT|DIRECT
+      5 C5'       -25.4770   32.6680  -11.3980 C.3       1 CMP301     22.7500 DICT|DIRECT
+      6 C4'       -25.2510   33.3400  -10.0890 C.3       1 CMP301     25.4200 BACKBONE|DICT|DIRECT
+      7 O4'       -25.7960   32.5960   -9.0970 O.3       1 CMP301     26.8500 DICT
+      8 C3'       -23.7590   33.1790   -9.7430 C.3       1 CMP301     26.0300 BACKBONE|DICT|DIRECT
+      9 O3'       -22.9430   33.9920  -10.6120 O.3       1 CMP301     26.5800 BACKBONE|DICT|DIRECT
+     10 C2'       -23.7850   33.5970   -8.2770 C.3       1 CMP301     24.8500 DICT
+     11 O2'       -23.8680   34.9980   -8.0990 O.3       1 CMP301     24.3700 DICT
+     12 C1'       -25.0890   32.9630   -7.8270 C.3       1 CMP301     25.8800 DICT
+     13 N9        -24.8020   31.6460   -7.1420 N.pl3     1 CMP301     27.8900 DICT
+     14 C8        -24.3290   30.5480   -7.7780 C.2       1 CMP301     25.5700 DICT
+     15 N7        -24.2210   29.5620   -6.8860 N.2       1 CMP301     27.4300 DICT
+     16 C5        -24.6430   29.9910   -5.6920 C.ar      1 CMP301     27.2400 DICT
+     17 C6        -24.7270   29.4120   -4.4090 C.ar      1 CMP301     29.0900 DICT
+     18 N6        -24.3690   28.1290   -4.1240 N.pl3     1 CMP301     25.3600 DICT
+     19 N1        -25.1970   30.1830   -3.4170 N.ar      1 CMP301     31.3400 DICT
+     20 C2        -25.5640   31.4480   -3.6230 C.ar      1 CMP301     29.8000 DICT
+     21 N3        -25.4470   31.9890   -4.8310 N.ar      1 CMP301     29.8300 DICT
+     22 C4        -24.9970   31.3170   -5.8710 C.ar      1 CMP301     26.1100 DICT
+     23 H5'1      -26.5394   32.7310  -11.6762 H         1 CMP301      0.0000 DICT
+     24 H5'2      -25.1760   31.6118  -11.3370 H         1 CMP301      0.0000 DICT
+     25 H4'       -25.5986   34.3836  -10.0963 H         1 CMP301      0.0000 DICT
+     26 H3'       -23.4326   32.1329   -9.8390 H         1 CMP301      0.0000 DICT
+     27 H2'       -22.9165   33.2016   -7.7299 H         1 CMP301      0.0000 DICT
+     28 HO2'      -24.6287   35.3313   -8.5602 H         1 CMP301      0.0000 DICT|ESSENTIAL
+     29 H1'       -25.6772   33.6388   -7.1888 H         1 CMP301      0.0000 DICT
+     30 H8        -24.0796   30.4814   -8.8360 H         1 CMP301      0.0000 DICT
+     31 HN61      -24.0057   27.5180   -4.8694 H         1 CMP301      0.0000 DICT|ESSENTIAL
+     32 HN62      -24.4616   27.7698   -3.1631 H         1 CMP301      0.0000 DICT|ESSENTIAL
+     33 H2        -25.9589   32.0367   -2.8029 H         1 CMP301      0.0000 DICT
+@<TRIPOS>BOND
+     1   12   29 1    DICT
+     2   12   13 1    DICT
+     3   12    7 1    DICT
+     4   12   10 1    DICT
+     5   10   27 1    DICT
+     6   10   11 1    DICT
+     7   10    8 1    DICT
+     8    8   26 1    DICT
+     9    8    9 1    BACKBONE|DICT
+    10    8    6 1    BACKBONE|DICT
+    11    6   25 1    DICT
+    12    6    7 1    DICT
+    13    6    5 1    DICT
+    14    5   24 1    DICT
+    15    5   23 1    DICT
+    16    5    4 1    DICT
+    17    4    1 1    BACKBONE|DICT
+    18    1    3 ar   DICT
+    19    1    2 ar   DICT
+    20    1    9 1    BACKBONE|DICT
+    21   11   28 1    DICT
+    22   13   14 1    DICT
+    23   13   22 1    DICT
+    24   22   16 ar   DICT
+    25   22   21 ar   DICT
+    26   21   20 ar   DICT
+    27   20   33 1    DICT
+    28   20   19 ar   DICT
+    29   19   17 ar   DICT
+    30   17   18 1    DICT
+    31   17   16 ar   DICT
+    32   16   15 1    DICT
+    33   15   14 2    DICT
+    34   14   30 1    DICT
+    35   18   32 1    DICT
+    36   18   31 1    DICT
+@<TRIPOS>SUBSTRUCTURE
+     1 CMP301     12 RESIDUE           4 A     CMP     0 ROOT CMP A 301
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 12
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 12
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

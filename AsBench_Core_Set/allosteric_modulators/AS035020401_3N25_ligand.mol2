@@ -1,0 +1,61 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Sat Nov 08 15:38:17 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sat Nov 08 15:38:17 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   17    17     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          -7.4170   29.2950  -11.7480 N.am      1 PRO1200    -0.2500 BACKBONE|DICT|DIRECT
+      2 CA         -6.9320   30.2320  -10.7370 C.3       1 PRO1200    -0.0300 BACKBONE|DICT|DIRECT
+      3 C          -6.0600   31.3690  -11.2920 C.2       1 PRO1200     0.5900 BACKBONE|DICT|DIRECT
+      4 O          -5.6160   32.2210  -10.5130 O.2       1 PRO1200    -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         -6.1100   29.3350   -9.7940 C.3       1 PRO1200    -0.0100 DICT
+      6 CG         -6.2830   27.9240  -10.3130 C.3       1 PRO1200     0.0200 DICT
+      7 CD         -7.4640   27.9280  -11.2200 C.3       1 PRO1200     0.0200 DICT
+      8 OXT        -5.7670   31.4890  -12.4940 O.3       1 PRO1200     0.0000 CAP|DICT
+      9 HNCA       -7.6870   29.5570  -12.6960 H         1 PRO1200     0.0000 
+     10 HA         -7.7840   30.6770  -10.2030 H         1 PRO1200     0.0600 BACKBONE|DICT|DIRECT
+     11 HB2        -5.0490   29.6250   -9.8180 H         1 PRO1200     0.0300 DICT
+     12 HB3        -6.4880   29.4130   -8.7640 H         1 PRO1200     0.0300 DICT
+     13 HG2        -5.3840   27.6140  -10.8660 H         1 PRO1200     0.0200 DICT
+     14 HG3        -6.4540   27.2330   -9.4750 H         1 PRO1200     0.0200 DICT
+     15 HD2        -7.3580   27.1830  -12.0220 H         1 PRO1200     0.0400 DICT
+     16 HD3        -8.3970   27.7420  -10.6670 H         1 PRO1200     0.0400 DICT
+     17 HOCA       -6.4210   31.0490  -13.0250 H         1 PRO1200     0.0000 
+@<TRIPOS>BOND
+     1    2    3 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    1 1    BACKBONE|DICT
+     4    1    7 1    DICT
+     5    7    6 1    DICT
+     6    6    5 1    DICT
+     7    3    8 1    CAP|DICT
+     8    3    4 2    BACKBONE|DICT
+     9    2   10 1    BACKBONE|DICT
+    10    5   12 1    DICT
+    11    5   11 1    DICT
+    12    6   13 1    DICT
+    13    6   14 1    DICT
+    14    7   15 1    DICT
+    15    7   16 1    DICT
+    16    1    9 1    
+    17    8   17 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PRO1200     2 RESIDUE           4 A     PRO     0 ROOT PRO A1200
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

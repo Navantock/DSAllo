@@ -1,0 +1,76 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 14:11:28 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 14:11:28 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   25    24     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          11.0520  102.2330   30.0940 N.am      1 LYS1451    -0.3500 BACKBONE|DICT|DIRECT
+      2 CA         11.4060  101.0900   29.2350 C.3       1 LYS1451    -0.2400 BACKBONE|DICT|DIRECT
+      3 C          11.3720   99.8020   30.0340 C.2       1 LYS1451     0.7300 BACKBONE|DICT|DIRECT
+      4 O          11.1290   98.7070   29.5110 O.2       1 LYS1451    -0.5900 BACKBONE|DICT|DIRECT
+      5 CB         12.8040  101.2670   28.6430 C.3       1 LYS1451    -0.0100 DICT
+      6 CG         13.2130  102.6340   28.1470 C.3       1 LYS1451     0.0200 DICT
+      7 CD         14.7100  102.8380   28.2700 C.3       1 LYS1451    -0.0500 DICT
+      8 CE         15.1910  104.1960   27.7860 C.3       1 LYS1451    -0.0100 DICT
+      9 NZ         14.4960  105.3540   28.4160 N.4       1 LYS1451    -0.3900 DICT
+     10 OXT        11.6260   99.8610   31.3250 O.3       1 LYS1451     0.0000 CAP|DICT
+     11 H          10.7580  102.0780   31.0370 H         1 LYS1451     0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+     12 HNCA       11.1060  103.1830   29.7270 H         1 LYS1451     0.0000 
+     13 HA         10.6750  101.0250   28.4150 H         1 LYS1451     0.1400 BACKBONE|DICT|DIRECT
+     14 HB2        13.5250  100.9760   29.4210 H         1 LYS1451     0.0400 DICT
+     15 HB3        12.8850  100.5760   27.7910 H         1 LYS1451     0.0400 DICT
+     16 HG2        12.9230  102.7340   27.0910 H         1 LYS1451     0.0100 DICT
+     17 HG3        12.6970  103.4010   28.7430 H         1 LYS1451     0.0100 DICT
+     18 HD2        14.9880  102.7300   29.3290 H         1 LYS1451     0.0600 DICT
+     19 HD3        15.2150  102.0610   27.6770 H         1 LYS1451     0.0600 DICT
+     20 HE2        16.2660  104.2790   28.0050 H         1 LYS1451     0.1100 DICT
+     21 HE3        15.0330  104.2500   26.6990 H         1 LYS1451     0.1100 DICT
+     22 HZ1        14.6310  105.3240   29.4140 H         1 LYS1451     0.3400 DICT|ESSENTIAL
+     23 HZ2        14.8760  106.2130   28.0510 H         1 LYS1451     0.3400 DICT|ESSENTIAL
+     24 HZ3        13.5110  105.3080   28.2080 H         1 LYS1451     0.3400 DICT|ESSENTIAL
+     25 HOCA       11.9370   99.0150   31.6250 H         1 LYS1451     0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3   10 1    CAP|DICT
+     6    5    6 1    DICT
+     7    6    7 1    DICT
+     8    7    8 1    DICT
+     9    8    9 1    DICT
+    10    1   11 1    BACKBONE|DICT
+    11    2   13 1    BACKBONE|DICT
+    12    5   15 1    DICT
+    13    5   14 1    DICT
+    14    6   17 1    DICT
+    15    6   16 1    DICT
+    16    7   19 1    DICT
+    17    7   18 1    DICT
+    18    8   21 1    DICT
+    19    8   20 1    DICT
+    20    9   24 1    DICT
+    21    9   23 1    DICT
+    22    9   22 1    DICT
+    23    1   12 1    
+    24   10   25 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 LYS1451     2 RESIDUE           4 A     LYS     0 ROOT LYS A1451
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

@@ -1,0 +1,54 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Sun Nov 09 17:21:21 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sun Nov 09 17:21:21 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   14    13     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          11.0560   80.8570   47.2210 N.am      1 SER600     -0.4200 BACKBONE|DICT|DIRECT
+      2 CA         11.6760   79.4910   47.1820 C.3       1 SER600     -0.0200 BACKBONE|DICT|DIRECT
+      3 C          12.3680   79.1340   45.8420 C.2       1 SER600      0.6000 BACKBONE|DICT|DIRECT
+      4 O          13.2620   78.2790   45.8050 O.2       1 SER600     -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         10.6340   78.4300   47.5490 C.3       1 SER600      0.2100 DICT
+      6 OG          9.8010   78.1580   46.4440 O.3       1 SER600     -0.6500 DICT
+      7 OXT        12.0540   79.6680   44.7660 O.3       1 SER600      0.0000 CAP|DICT
+      8 H          11.0690   81.4350   46.4050 H         1 SER600      0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+      9 HNCA       10.6210   81.1950   48.0790 H         1 SER600      0.0000 
+     10 HA         12.4570   79.4730   47.9560 H         1 SER600      0.0800 BACKBONE|DICT|DIRECT
+     11 HB2        11.1480   77.5060   47.8520 H         1 SER600      0.0400 DICT
+     12 HB3        10.0200   78.7980   48.3840 H         1 SER600      0.0400 DICT
+     13 HG          9.1600   77.4990   46.6850 H         1 SER600      0.4300 DICT|ESSENTIAL
+     14 HOCA       12.2900   79.0940   44.0470 H         1 SER600      0.0000 
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    3    7 1    CAP|DICT
+     6    5    6 1    DICT
+     7    1    8 1    BACKBONE|DICT
+     8    2   10 1    BACKBONE|DICT
+     9    5   12 1    DICT
+    10    5   11 1    DICT
+    11    6   13 1    DICT
+    12    1    9 1    
+    13    7   14 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SER600      2 RESIDUE           4 A     SER     0 ROOT SER A 600
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

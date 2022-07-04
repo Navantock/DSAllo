@@ -1,0 +1,72 @@
+#	Name:			1FX2_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Sat Nov 08 12:26:13 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sat Nov 08 12:26:13 2014
+
+@<TRIPOS>MOLECULE
+1FX2_ligand
+   14    15     1     1     9
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 S1         25.0530   38.8170   11.3920 S.3       1 DTT1124    -0.1728 
+      2 C1         23.3520   38.8310   10.9200 C.3       1 DTT1124     0.0505 
+      3 C2         23.1720   40.2410   11.2320 C.3       1 DTT1124     0.2401 
+      4 O2         21.9500   39.4830   12.8950 O.3       1 DTT1124    -0.3053 
+      5 C3         22.8000   40.4980   12.5870 C.3       1 DTT1124     0.2401 
+      6 O3         22.8210   40.8000   10.3850 O.3       1 DTT1124    -0.3053 
+      7 C4         22.1630   41.7020   12.9090 C.3       1 DTT1124     0.0505 
+      8 S4         22.9490   41.6760   14.4380 S.3       1 DTT1124    -0.1728 
+      9 H1         25.4307   37.8918   11.2599 H         1 DTT1124     0.1018 
+     10 H2         22.7262   38.1679   11.5354 H         1 DTT1124     0.0428 
+     11 H3         23.1957   38.5994    9.8561 H         1 DTT1124     0.0428 
+     12 H4         21.0664   41.6339   12.9625 H         1 DTT1124     0.0428 
+     13 H5         22.4469   42.5499   12.2684 H         1 DTT1124     0.0428 
+     14 H6         22.6772   42.4883   14.9694 H         1 DTT1124     0.1018 
+@<TRIPOS>BOND
+     1    8   14 1    
+     2    8    7 1    
+     3    7   13 1    
+     4    7   12 1    
+     5    7    5 1    
+     6    5    6 1    
+     7    5    4 1    
+     8    5    3 1    
+     9    3    4 1    
+    10    3    6 1    
+    11    3    2 1    
+    12    2   11 1    
+    13    2   10 1    
+    14    2    1 1    
+    15    1    9 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 DTT1124     8 GROUP             4 A     ****    0 ROOT DTT A1124
+@<TRIPOS>SET
+LIGDB           STATIC     ATOMS    AMSOM    **** Atom types from ligand database
+8 1 2 3 4 5 6 7 8
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 8
+ATOM$BY_TYPE    STATIC     ATOMS    COLORGROUP SYSTEM 
+14 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+UNK_AMBER7_FF99 STATIC     ATOMS    <user>   **** 
+14 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+UNK_AMBER7_FF02 STATIC     ATOMS    <user>   **** 
+14 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+UNK_AMBER95_ALL STATIC     ATOMS    <user>   **** 
+14 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+UNK_KOLL_ALL    STATIC     ATOMS    <user>   **** 
+14 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+X_ATOM_TYPES    STATIC     ATOMS    <user>   **** ""
+14 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 8
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*

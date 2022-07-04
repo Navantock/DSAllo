@@ -1,0 +1,50 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Sun Nov 09 17:24:46 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sun Nov 09 17:24:46 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   12    11     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N          48.3090  -66.9870   -1.6520 N.am      1 SER451     -0.4200 BACKBONE|DICT|DIRECT
+      2 CA         46.9570  -66.4010   -1.9330 C.3       1 SER451     -0.0200 BACKBONE|DICT|DIRECT
+      3 C          47.0670  -65.1290   -2.7760 C.2       1 SER451      0.6000 BACKBONE|DICT|DIRECT
+      4 O          46.1450  -64.2730   -2.8990 O.2       1 SER451     -0.5700 BACKBONE|DICT|DIRECT
+      5 CB         46.1630  -66.2420   -0.6160 C.3       1 SER451      0.2100 DICT
+      6 OG         46.3300  -67.5500   -0.0270 O.3       1 SER451     -0.6500 DICT
+      7 H          49.1350  -66.4930   -1.9240 H         1 SER451      0.2700 BACKBONE|DICT|ESSENTIAL|DIRECT
+      8 HNCA       48.3860  -67.8900   -1.1830 H         1 SER451      0.0000 
+      9 HA         46.4060  -67.1300   -2.5450 H         1 SER451      0.0800 BACKBONE|DICT|DIRECT
+     10 HB2        46.5930  -65.4550    0.0210 H         1 SER451      0.0400 DICT
+     11 HB3        45.1030  -66.0190   -0.8090 H         1 SER451      0.0400 DICT
+     12 HG         45.8770  -67.5820    0.8070 H         1 SER451      0.4300 DICT|ESSENTIAL
+@<TRIPOS>BOND
+     1    2    1 1    BACKBONE|DICT
+     2    2    5 1    DICT
+     3    2    3 1    BACKBONE|DICT
+     4    3    4 2    BACKBONE|DICT
+     5    5    6 1    DICT
+     6    1    7 1    BACKBONE|DICT
+     7    2    9 1    BACKBONE|DICT
+     8    5   11 1    DICT
+     9    5   10 1    DICT
+    10    6   12 1    DICT
+    11    1    8 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SER451      2 RESIDUE           4 A     SER     0 ROOT SER A 451
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 2
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 2

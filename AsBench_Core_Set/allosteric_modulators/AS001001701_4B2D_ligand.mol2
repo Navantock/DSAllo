@@ -1,0 +1,48 @@
+#	Name:			obj01
+#	Creating user name:	huangwkk
+#	Creation time:		Sat Nov 08 15:30:38 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Sat Nov 08 15:30:38 2014
+
+@<TRIPOS>MOLECULE
+obj01
+   11    10     1     0     3
+BIOPOLYMER
+NO_CHARGES
+
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 CA        -10.1270   -4.3580    0.8410 C.3       1 SER1532    -0.0200 BACKBONE|DICT|DIRECT
+      2 C         -10.8090   -5.1030   -0.3180 C.2       1 SER1532     0.6000 BACKBONE|DICT|DIRECT
+      3 O         -10.2930   -4.9670   -1.4470 O.2       1 SER1532    -0.5700 BACKBONE|DICT|DIRECT
+      4 CB         -8.8090   -5.0300    1.2000 C.3       1 SER1532     0.2100 DICT
+      5 OG         -9.0170   -6.3070    1.7890 O.3       1 SER1532    -0.6500 DICT
+      6 OXT       -11.8200   -5.7880   -0.0670 O.3       1 SER1532     0.0000 CAP|DICT
+      7 HA         -9.9430   -3.4370    0.5560 H         1 SER1532     0.0800 BACKBONE|DICT|DIRECT
+      8 HB2        -8.2770   -5.1330    0.3910 H         1 SER1532     0.0400 DICT
+      9 HB3        -8.3160   -4.4610    1.8230 H         1 SER1532     0.0400 DICT
+     10 HG         -8.9360   -6.2400    2.6100 H         1 SER1532     0.4300 DICT|ESSENTIAL
+     11 HOCA      -11.9190   -6.4610   -0.7300 H         1 SER1532     0.0000 
+@<TRIPOS>BOND
+     1    1    4 1    DICT
+     2    1    2 1    BACKBONE|DICT
+     3    2    3 2    BACKBONE|DICT
+     4    2    6 1    CAP|DICT
+     5    4    5 1    DICT
+     6    1    7 1    BACKBONE|DICT
+     7    4    9 1    DICT
+     8    4    8 1    DICT
+     9    5   10 1    DICT
+    10    6   11 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 SER1532     1 RESIDUE           4 A     SER     0 ROOT SER A1532
+@<TRIPOS>SET
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 1
+CHAIN_HEAD      STATIC     SUBSTS   AMSOM    **** 
+1 1
+CHAIN_TAIL      STATIC     SUBSTS   AMSOM    **** 
+1 1

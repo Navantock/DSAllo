@@ -1,0 +1,77 @@
+#	Name:			3LSX_ligand
+#	Creating user name:	huangwkk
+#	Creation time:		Mon Nov 10 02:14:13 2014
+
+#	Modifying user name:	huangwkk
+#	Modification time:	Mon Nov 10 02:14:13 2014
+
+@<TRIPOS>MOLECULE
+3LSX_ligand
+   17    17     1     1     9
+BIOPOLYMER
+USER_CHARGES
+INVALID_CHARGES
+
+@<TRIPOS>DICT
+BIOPOLYMER macromol
+@<TRIPOS>ATOM
+      1 N01        13.5930   30.4570   33.8500 N.am      1 PZI802     -0.2984 
+      2 C02        12.3000   30.4290   34.5150 C.2       1 PZI802      0.2060 
+      3 O03        12.2360   30.7170   35.6670 O.2       1 PZI802     -0.3940 
+      4 C04        11.0250   30.1480   33.7110 C.3       1 PZI802      0.1531 
+      5 N05         9.7760   30.1190   34.4680 N.am      1 PZI802     -0.2009 
+      6 C06         9.4570   29.2040   35.4060 C.2       1 PZI802      0.0526 
+      7 C07         8.1620   29.4910   35.8780 C.2       1 PZI802     -0.0545 
+      8 C08         7.6920   30.6090   35.1930 C.2       1 PZI802     -0.0222 
+      9 C09         8.6600   31.0160   34.3190 C.2       1 PZI802      0.2154 
+     10 O10         8.5700   32.1110   33.4370 O.2       1 PZI802     -0.3796 
+     11 H1         13.6625   30.2173   32.8816 H         1 PZI802      0.1815 
+     12 H2         14.4126   30.7159   34.3611 H         1 PZI802      0.1815 
+     13 H3         11.1446   29.1689   33.2242 H         1 PZI802      0.0879 
+     14 H4         10.9335   30.9305   32.9433 H         1 PZI802      0.0879 
+     15 H5         10.0915   28.3846   35.7406 H         1 PZI802      0.1044 
+     16 H6          7.6225   28.9362   36.6442 H         1 PZI802      0.0423 
+     17 H7          6.7191   31.0785   35.3306 H         1 PZI802      0.0372 
+@<TRIPOS>BOND
+     1   10    9 2    
+     2    9    8 1    
+     3    9    5 am   
+     4    5    6 1    
+     5    5    4 1    
+     6    4   14 1    
+     7    4   13 1    
+     8    4    2 1    
+     9    2    3 2    
+    10    2    1 am   
+    11    1   12 1    
+    12    1   11 1    
+    13    6   15 1    
+    14    6    7 2    
+    15    7   16 1    
+    16    7    8 2    
+    17    8   17 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 PZI802     10 GROUP             4 A     ****    0 ROOT PZI A 802
+@<TRIPOS>SET
+UNK_ATOMS       STATIC     ATOMS    AMSOM    **** Atom types guessed for these atoms
+7 1 2 3 4 6 7 8
+LIGDB           STATIC     ATOMS    AMSOM    **** Atom types from ligand database
+3 5 9 10
+HETATM          STATIC     SUBSTS   AMSOM    **** 
+1 10
+UNK_AMBER7_FF99 STATIC     ATOMS    <user>   **** 
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+UNK_AMBER7_FF02 STATIC     ATOMS    <user>   **** 
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+UNK_AMBER95_ALL STATIC     ATOMS    <user>   **** 
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+UNK_KOLL_ALL    STATIC     ATOMS    <user>   **** 
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+X_ATOM_TYPES    STATIC     ATOMS    <user>   **** ""
+17 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+X_CHARGES       STATIC     SUBSTS   <user>   **** ""
+1 10
+@<TRIPOS>NORMAL
+@<TRIPOS>RENDERING_ATTRS
+ANTIALIASED_LINES 
+*
