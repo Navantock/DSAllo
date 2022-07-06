@@ -7,7 +7,7 @@ import os
 from tqdm import tqdm
 
 from dataset import End2EndPredictorDataset
-from configs import args_train
+from configs import usr_arg_train
 from utils import set_seed_global, cal_correct_pred, cal_accuracy, draw_train_curve
 
 
@@ -99,6 +99,7 @@ def train_predictor(predictor, run_device, save_model: bool = False,
 
 
 if __name__ == "__main__":
+    args_train = usr_arg_train()
     print(args_train)
     set_seed_global(args_train.seed)
     device = "cuda" if torch.cuda.is_available() else "cpu"
