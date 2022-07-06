@@ -7,6 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import os
+from datetime import datetime
 
 from dataset import get_protein_data
 
@@ -62,11 +63,11 @@ def draw_roc_curve():
 def interpolateColor(alpha):
     colorA = (1, 0, 0)
     colorB = (0, 0, 1)
-    return tuple(np.array(colorA)*(1-alpha) + np.array(colorB)*(alpha))
+    return tuple(np.array(colorA) * (1 - alpha) + np.array(colorB) * (alpha))
 
 
 def PredictAlloRes(Predictor_model, Predictor_params_file: str,
-                   mode: str = "probability" or "binary", visualize: bool = True, **kwargs):
+                   visualize: bool = True, vis_mode: str = "show", **kwargs):
     pdb_file_path = None
     pdb_file_name = None
     if "PDB_ID" in kwargs:
@@ -88,11 +89,11 @@ def PredictAlloRes(Predictor_model, Predictor_params_file: str,
 
     Predictor_model.load_state_dict(torch.load(Predictor_params_file))
     ds_list, surface_res = get_protein_data(pdb_file_path)
-    print("Read data successfully.")
+    print("Read ds data successfully.")
     result = Predictor_model(ds_list)
     print("Calculate successfully.")
     result_binary = [float(_.argmax(dim=0)) for _ in result]
-    result_p = [float(_[0]/sum(_)) for _ in result]
+    result_p = [float(_[1] / sum(_)) for _ in result]
     if visualize:
         x = [res['CA'].get_coord()[0] for res in surface_res]
         y = [res['CA'].get_coord()[1] for res in surface_res]
@@ -105,8 +106,10 @@ def PredictAlloRes(Predictor_model, Predictor_params_file: str,
         ax.set_ylabel('Y', fontsize=10, color='black')
         ax.set_zlabel('Z', fontsize=10, color='black')
         ax.scatter3D(x, y, z, s=30, c=result_binary, cmap="viridis")
-        plt.show()
-        plt.savefig("./results/hot_visualize/{}_hot_binary.png".format(pdb_file_name))
+        if vis_mode == "show":
+            plt.show()
+        elif vis_mode == "save":
+            plt.savefig("./results/hot_visualize/{}_hot_binary.png".format(pdb_file_name))
 
         plt.figure()
         plt.hot()
@@ -115,9 +118,28 @@ def PredictAlloRes(Predictor_model, Predictor_params_file: str,
         ax.set_ylabel('Y', fontsize=10, color='black')
         ax.set_zlabel('Z', fontsize=10, color='black')
         ax.scatter3D(x, y, z, s=30, c=result_p, cmap="viridis")
-        plt.show()
-        plt.savefig("./results/hot_visualize/{}_hot_probability.png".format(pdb_file_name))
+        if vis_mode == "show":
+            plt.show()
+        elif vis_mode == "save":
+            plt.savefig("./results/hot_visualize/{}_hot_probability.png".format(pdb_file_name))
 
-    out = {}
+    save_dir = "./results/predict"
+    if "save_dir" in kwargs:
+        assert os.path.exists(save_dir), RuntimeError("Saving Directory Not Found.")
+        save_dir = kwargs["save_dir"]
 
-    return out
+    local_time = datetime.today()
+    with open(os.path.join(save_dir, pdb_file_name + ".dsas"), mode='x', encoding='utf-8') as f:
+        f.write("# DS dataset file\n")
+        f.write("# Source file: {}\n".format(pdb_file_path))
+        f.write("# Time: {} {}\n".format(local_time.date(), local_time.time()))
+        f.write("# index\tres_name\tchain\tres_id\tis_allo\tprobability\n")
+
+        idx = 0
+        for res in surface_res:
+            chain_id, res_num, res_name = res.get_full_id()[-2], res.get_full_id()[-1], res.get_resname()
+            f.write("{}\t{}\t{}\t{}{}\t{}\t{:.2f}\n"
+                    .format(idx + 1, res_name, chain_id, res_num[1], res_num[2], int(result_binary[idx]), result_p[idx]))
+            idx += 1
+
+    return os.path.join(save_dir, pdb_file_name + ".dsa")
